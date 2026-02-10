@@ -6,7 +6,8 @@ https://ch3-33-web.cdn.byteark.com/live/playlist_360p/index.m3u8?x_ark_access_id
  
 #EXTINF:-1tvg-id="Thairath TV" tvg-logo="https://api.bananacake.org/images/png/hd-thairath.png" group-title="ทีวีออนไลน์",Thairath TV
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
+https://p1.cdn.vet/live/ch39/i/ch39i.m3u8?sid=b5yNzcyZWM0YjAyMjIxYjgzMDRlMAODU0ODQxNThhMmY1YWVl 
 https://ssai-streaming.thairath.co.th/bamm-csai/720p/index.m3u8
 #EXTINF:-1 tvg-id="mono29.th" tvg-logo="https://api.bananabatman.org/images/png/hd-mono.png" group-title="ทีวีออนไลน์",Mono29
 https://monomax-uiripn.cdn.byteark.com/plain/th/1080p/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
