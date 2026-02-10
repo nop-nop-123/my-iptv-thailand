@@ -14,8 +14,8 @@ jobs:
           echo "#EXTM3U" > playlist.m3u
           echo "#EXTINF:-1 tvg-logo=\"https://www.amarintv.com/assets/images/logo.png\", Amarin TV" >> playlist.m3u
           echo "https://amarin-ks7jcc.cdn.byteark.com/live/Thai_HD_index.m3u8?x_ark_access_id=fleet-868&x_ark_auth_type=ark-v2&x_ark_expires=1770812209&x_ark_path_prefix=%2Flive%2F&x_ark_signature=Il8BaYxu9H6wmm3LC3XFHw" >> playlist.m3u
-          echo "#EXTINF:-1 tvg-logo=\"https://www.amarintv.com/assets/images/logo.png\", Amarin TV" >> playlist.m3u
-          echo "https://amarin-ks7jcc.cdn.byteark.com/live/Thai_HD_index.m3u8?x_ark_access_id=fleet-868&x_ark_auth_type=ark-v2&x_ark_expires=1770812209&x_ark_path_prefix=%2Flive%2F&x_ark_signature=Il8BaYxu9H6wmm3LC3XFHw" >> playlist.m3u
+          echo "#EXTINF:-1 tvg-logo=\"https://api.bananabatman.org/images/png/hd-ch3.png\", Ch3" >> playlist.m3u
+          echo "https://ch3-33-web.cdn.byteark.com/live/playlist_360p/index.m3u8?x_ark_access_id=D78MkxZFEr5Zr9PE&x_ark_auth_type=ark-v2&x_ark_expires=1770749702&x_ark_max_resolution=720p&x_ark_path_prefix=/live/&x_ark_signature=xD_ErFZ1-xjof2_7a0osoQ" >> playlist.m3u
       - name: Commit and Push
         run: |
           git config --global user.name "GitHub Action"
