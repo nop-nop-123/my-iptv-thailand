@@ -1,4 +1,4 @@
-#EXTM3U url-tvg="https://iptv-org.github.io/guide/th.xml" refresh="3600"
+#EXTM3U 
 #EXTINF:-1 tvg-id="ch3.th" tvg-logo="https://api.bananabatman.org/images/png/hd-ch3.png" group-title="ทีวีออนไลน์",Ch3
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://ch3plus.com/
