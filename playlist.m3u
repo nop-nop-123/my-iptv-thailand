@@ -8,7 +8,8 @@ https://ch3-33-web.cdn.byteark.com/live/playlist_360p/index.m3u8?x_ark_access_id
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
 https://p1.cdn.vet/live/ch39/i/ch39i.m3u8?sid=b5yNzcyZWM0YjAyMjIxYjgzMDRlMAODU0ODQxNThhMmY1YWVl 
-
+#EXTINF:-1 tvg-id="Ch7.th" tvg-logo="https://ball67.com/assets/channels-logo/7hd.png" group-title="ทีวีออนไลน์",Ch7hd
+https://live-cdn.ch7.com/out/v1/eafeb02c55b64a15b278b1e66c7fc776/playlist_11.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTINF:-1 tvg-id="mono29.th" tvg-logo="https://api.bananabatman.org/images/png/hd-mono.png" group-title="ทีวีออนไลน์",Mono29
 https://monomax-uiripn.cdn.byteark.com/plain/th/1080p/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTINF:-1 tvg-id="ch5.th" tvg-logo="https://i.imgur.com/wOIaqg7.png" group-title="ทีวีออนไลน์",ch5
