@@ -27,8 +27,8 @@ https://thaipbs-live.cdn.byteark.com/live/playlist.m3u8|User-Agent=Mozilla/5.0 (
 http://usa.login.in.th:1935/ch8/ch8/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTINF:-1 tvg-id="MCOT"tvg-logo="https://i.imgur.com/ejPxGmU.png" group-title="ทีวีออนไลน์",MCOT
 https://mcothd-streaming-edge-cdn.mcot.net/tencentmcot/smil:tencentmcot.smil/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
-#EXTINF:-1 tvg-id="Amarin tv"tvg-logo="https://api.bananacake.org/images/png/hd-amarin.png" group-title="ทีวีออนไลน์","Amarin tv
-https://amarin-ks7jcc.cdn.byteark.com/live/720p_index.m3u8?x_ark_access_id=fleet-868&x_ark_auth_type=ark-v2&x_ark_expires=1770812209&x_ark_path_prefix=%2Flive%2F&x_ark_signature=Il8BaYxu9H6wmm3LC3XFHw|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
+#EXTINF:-1 tvg-id="Amarin tv"tvg-logo="https://api.bananacake.org/images/png/hd-amarin.png" group-title="ทีวีออนไลน์",Amarin tv
+https://amarin-ks7jcc.cdn.byteark.com/live/playlist.m3u8?x_ark_access_id=fleet-868&x_ark_auth_type=ark-v2&x_ark_expires=1770812209&x_ark_path_prefix=%2Flive%2F&x_ark_signature=Il8BaYxu9H6wmm3LC3XFHw|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
 
 
 
