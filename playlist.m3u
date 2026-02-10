@@ -31,7 +31,8 @@ https://mcothd-streaming-edge-cdn.mcot.net/tencentmcot/smil:tencentmcot.smil/pla
 #EXTINF:-1 tvg-id="Amarin tv"tvg-logo="https://api.bananacake.org/images/png/hd-amarin.png" group-title="ทีวีออนไลน์",Amarin tv
 https://amarin-ks7jcc.cdn.byteark.com/live/playlist.m3u8?x_ark_access_id=fleet-868&x_ark_auth_type=ark-v2&x_ark_expires=1770812209&x_ark_path_prefix=%2Flive%2F&x_ark_signature=Il8BaYxu9H6wmm3LC3XFHw
 
-
+#EXTINF:-1 tvg-id="ONE31"tvg-logo="https://api.bananacake.org/images/png/hd-gmmone.png" group-title="ทีวีออนไลน์",ONE31
+https://bcovlive-a.akamaihd.net/b6603a14ea59440a95e9235e14bc9332/ap-southeast-1/6415628290001/9c3d7fc7d10840a69e48b5939ae886e0/playlist_ssaiM.m3u8
 
 
 
