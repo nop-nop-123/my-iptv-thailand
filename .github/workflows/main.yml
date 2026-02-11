@@ -1,40 +1,24 @@
-name: Update playlist
-
+name: Auto Update Playlist
 on:
-  push:
-    branches: [ main ]  # เปลี่ยนจาก master เป็น main
-  workflow_dispatch:     # ช่วยให้กดรันเองได้จากหน้าเว็บ GitHub
+  workflow_dispatch: # ให้เรากดรันเองได้เพื่อทดสอบ
+  schedule:
+    - cron: '0 0 * * *' # รันอัตโนมัติทุกเที่ยงคืน
 
 jobs:
-  update-playlist:
+  run-script:
     runs-on: ubuntu-latest
-    
-    # เพิ่มสิทธิ์ให้ Action สามารถเขียนข้อมูลลง Repo ได้
-    permissions:
-      contents: write
-
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v4 # อัปเดตเป็น v4 (เสถียรกว่า)
-
+      - uses: actions/checkout@v3
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.x'
-
-      - name: Update playlist
+          python-version: '3.9'
+      - name: Run Python Script
+        run: python main.py
+      - name: Push Changes
         run: |
-          git config user.name "PlaylistBot"
-          git config user.email "playlistbot@users.noreply.github.com"
-          
-          # รันสคริปต์ Python ของคุณ
-          python3 ./make_playlist.py
-          
-          # ตรวจสอบว่ามีการเปลี่ยนแปลงไฟล์ไหม ก่อนจะ commit
-          git add .
-          if git diff --staged --quiet; then
-            echo "No changes to commit"
-          else
-            git commit -m "Update Playlist (GitHub Actions)"
-            git push origin main
-          fi
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add playlist.m3u8
+          git commit -m "Update playlist" || exit 0
+          git push
