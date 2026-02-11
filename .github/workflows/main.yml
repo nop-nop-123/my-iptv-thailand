@@ -1,32 +1,67 @@
-name: Update Playlist
+name: Sync EPG Files and Run Tempest Script
 
 on:
   schedule:
-    - cron: '0 */6 * * *' # รันทุกๆ 6 ชั่วโมง เพื่ออัปเดต Token ลิงก์ที่อาจหมดอายุ
-  workflow_dispatch: # ปุ่มกดรันเองได้
+    - cron: "30 17 * * *"
+  push:
+    branches:
+      - master
+  pull_request:
+    branches:
+      - master
+
+env:
+  TZ: Asia/Bangkok # ตั้ง Time Zone เป็น Asia/Bangkok
 
 jobs:
-  update:
+  sync-and-run-tempest:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v3
+    - name: Checkout public repository
+      uses: actions/checkout@v2
 
-      - name: Set up Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.9'
+    - name: Configure SSH key
+      run: |
+        mkdir -p ~/.ssh
+        echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_rsa
+        chmod 600 ~/.ssh/id_rsa
+        eval $(ssh-agent -s)
+        ssh-add ~/.ssh/id_rsa
+        ssh-keyscan -H github.com >> ~/.ssh/known_hosts
 
-      - name: Install dependencies
-        run: pip install requests
+    - name: Clone private repository
+      run: git clone git@github.com:akkradet/epg-grabber.git epg-grabber
 
-      - name: Run Scraper
-        run: python fetch_links.py # รันไฟล์ที่คุณเพิ่งสร้างเพื่ออัปเดต playlist.m3u
+    - name: Setup PHP
+      uses: shivammathur/setup-php@2.31.1
+      with:
+        php-version: 8.3
+        extensions: xml, imagick, zip, curl
+        ini-values: memory_limit=-1
 
-      - name: Commit and Push
-        run: |
-          git config --global user.name "GitHub Action"
-          git config --global user.email "action@github.com"
-          git add playlist.m3u
-          git commit -m "Auto update playlist" || exit 0
-          git push
+    - name: Run Tempest script
+      run: |
+        cd epg-grabber
+        if [ -f tempest.php ]; then
+          php tempest.php --epg config=mvtv.config.xml invgz
+        else
+          echo "tempest.php not found in the repository"
+          exit 1
+        fi
+
+    - name: Copy XML files
+      run: |
+        cp -r epg-grabber/tempest_config/epg/*.xml ./
+
+    - name: Configure Git for commit
+      run: |
+        git config --local user.email "github-actions[bot]@users.noreply.github.com"
+        git config --local user.name "github-actions[bot]"
+
+    - name: Commit and push changes
+      uses: stefanzweifel/git-auto-commit-action@v4
+      with:
+        commit_message: |
+          Automated EPG update
+        file_pattern: "*.xml"
