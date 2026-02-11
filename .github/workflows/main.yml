@@ -1,21 +1,28 @@
 name: Update Playlist
+
 on:
   schedule:
-    - cron: '0 0 * * *' # อัปเดตทุกเที่ยงคืน
-  workflow_dispatch: # กดอัปเดตเองได้
+    - cron: '0 */6 * * *' # รันทุกๆ 6 ชั่วโมง เพื่ออัปเดต Token ลิงก์ที่อาจหมดอายุ
+  workflow_dispatch: # ปุ่มกดรันเองได้
 
 jobs:
   update:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - name: Update Content
-        run: |
-          echo "#EXTM3U" > playlist.m3u
-          echo "#EXTINF:-1 tvg-logo=\"https://www.amarintv.com/assets/images/logo.png\", Amarin TV" >> playlist.m3u
-          echo "" >> playlist.m3u
-          echo "#EXTINF:-1 tvg-logo=\"https://api.bananabatman.org/images/png/hd-ch3.png\", Ch3" >> playlist.m3u
-          echo "https://ch3-33-web.cdn.byteark.com/live/playlist_720p/index.m3u8?x_ark_access_id=D78MkxZFEr5Zr9PE&x_ark_auth_type=ark-v2&x_ark_expires=1770831302&x_ark_max_resolution=720p&x_ark_path_prefix=/live/&x_ark_signature=1W2Mum8kwvLZWUguEui4Cw" >> playlist.m3u
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Run Scraper
+        run: python fetch_links.py # รันไฟล์ที่คุณเพิ่งสร้างเพื่ออัปเดต playlist.m3u
+
       - name: Commit and Push
         run: |
           git config --global user.name "GitHub Action"
