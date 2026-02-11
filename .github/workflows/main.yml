@@ -15,7 +15,7 @@ jobs:
           echo "#EXTINF:-1 tvg-logo=\"https://www.amarintv.com/assets/images/logo.png\", Amarin TV" >> playlist.m3u
           echo "" >> playlist.m3u
           echo "#EXTINF:-1 tvg-logo=\"https://api.bananabatman.org/images/png/hd-ch3.png\", Ch3" >> playlist.m3u
-          echo "" >> playlist.m3u
+          echo "https://ch3-33-web.cdn.byteark.com/live/playlist_720p/index.m3u8?x_ark_access_id=D78MkxZFEr5Zr9PE&x_ark_auth_type=ark-v2&x_ark_expires=1770831302&x_ark_max_resolution=720p&x_ark_path_prefix=/live/&x_ark_signature=1W2Mum8kwvLZWUguEui4Cw" >> playlist.m3u
       - name: Commit and Push
         run: |
           git config --global user.name "GitHub Action"
