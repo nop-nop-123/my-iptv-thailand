@@ -6,7 +6,7 @@ https://p0.cdn.vet/live/ch3/i/ch3i.m3u8?sid=b5yYjA0NmE5OTlmYWU0YjAwNzkxMwMWQ5ZjQ
 #EXTINF:-1tvg-id="Thairath TV" tvg-logo="https://api.bananacake.org/images/png/hd-thairath.png" group-title="ทีวีออนไลน์",Thairath TV
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
-https://p0.cdn.vet/live/ch39/i/ch39i.m3u8?sid=b5yNTllNGYxOWMyMWQzMzQxYzZjOAODRlOTU5MDFmMmMxMzY4
+https://p1.cdn.vet/live/ch39/i/ch39i.m3u8?sid=b5yZjhhMmI2ZDU0Y2JjY2VjZWJiNgODhjN2FjNmFmMmE0NGM1
 #EXTINF:-1 tvg-id="mono29.th" tvg-logo="https://api.bananabatman.org/images/png/hd-mono.png" group-title="ทีวีออนไลน์",Mono29
 https://monomax-uiripn.cdn.byteark.com/plain/th/1080p/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTINF:-1 tvg-id="ch5.th" tvg-logo="https://i.imgur.com/wOIaqg7.png" group-title="ทีวีออนไลน์",ch5
