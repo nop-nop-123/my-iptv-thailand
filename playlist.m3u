@@ -2,7 +2,7 @@
 #EXTINF:-1 tvg-id="ch3.th" tvg-logo="https://api.bananabatman.org/images/png/hd-ch3.png" group-title="ทีวีออนไลน์",Ch3
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://ch3plus.com/
-https://p0.cdn.vet/live/ch3/i/ch3i.m3u8?appid=trueid&type=live&visitor=web&drm=aes&uid=8948c5b417&did=ZmMzeE5ZQlBZajNHYXliRUJBWW1sZHptLUoxQmJ1cDM&mpass=p1FeS81IxNA1BaFhPgmCFcjFINufFriSsu3mWWIGWooE_2YaRj3gWD1Ykj9eYVXqrVgxZupLfX0TwqHuX_qUaV1YWnH5k5qepmX0ebJUsFNTlkjB4qdxuvnT1mEfru7NICDWb8KI8xWoI2BrYk5Py3lJ&sid=9af100d617&rt=1770807768&ds=25200&tk=XrF4Ei81mVxGioss6liQYN0wPioDD0oXwxE3Xn-QXU8
+https://p0.cdn.vet/live/ch3/i/ch3i.m3u8?sid=b5yYjA0NmE5OTlmYWU0YjAwNzkxMwMWQ5ZjQ0NWQwMGI4YWQ1
 #EXTINF:-1tvg-id="Thairath TV" tvg-logo="https://api.bananacake.org/images/png/hd-thairath.png" group-title="ทีวีออนไลน์",Thairath TV
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
