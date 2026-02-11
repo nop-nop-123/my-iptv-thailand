@@ -1,25 +1,21 @@
 import requests
-import re
 
-def get_live_link(url, pattern):
-    try:
-        headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'}
-        response = requests.get(url, headers=headers, timeout=10)
-        match = re.search(pattern, response.text)
-        return match.group(0) if match else None
-    except:
-        return None
-
-# สร้างไฟล์ playlist.m3u ใหม่
-with open("playlist.m3u", "w", encoding="utf-8") as f:
-    f.write('#EXTM3U url-tvg="https://iptv-org.github.io/guide/th.xml" refresh="3600"\n')
+def update_m3u():
+    # ในอนาคตคุณสามารถเขียนฟังก์ชันดึงลิงก์ (Scraping) มาใส่ตรงนี้ได้
+    # ตอนนี้เราจะใช้โครงสร้างมาตรฐานที่คุณมีก่อน
     
-    # ตัวอย่าง: ช่อง 3 (ต้องใช้ Regex ที่ตรงกับโครงสร้างเว็บปัจจุบัน)
-    ch3_live = get_live_link("https://ch3plus.com/live", r'https://.*\.m3u8.*?(?=")')
-    if ch3_live:
-        f.write('#EXTINF:-1 tvg-id="ch3.th" tvg-logo="https://api.bananabatman.org/images/png/hd-ch3.png", Ch3\n')
-        f.write(f"{ch3_live}|User-Agent=Mozilla/5.0...\n")
+    content = """#EXTM3U url-tvg="https://iptv-org.github.io/guide/th.xml" refresh="3600"
+#EXTINF:-1 tvg-id="ch3.th" tvg-logo="https://api.bananabatman.org/images/png/hd-ch3.png" group-title="ทีวีออนไลน์",Ch3
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
+#EXTVLCOPT:http-referrer=https://ch3plus.com/
+https://ch3-33-web.cdn.byteark.com/live/playlist_720p/index.m3u8
+#EXTINF:-1 tvg-id="ThaiPBS" tvg-logo="https://api.bananacake.org/images/png/hd-tpbs.png" group-title="ทีวีออนไลน์",Thai PBS
+https://thaipbs-live.cdn.byteark.com/live/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
+"""
+    
+    with open("playlist.m3u", "w", encoding="utf-8") as f:
+        f.write(content)
+    print("Playlist updated successfully!")
 
-    # สำหรับช่องที่ลิงก์ไม่ตาย (เช่น Thai PBS) ก็เขียนลงไปตรงๆ ได้เลย
-    f.write('#EXTINF:-1 tvg-id="ThaiPBS" tvg-logo="...", Thai PBS\n')
-    f.write('https://thaipbs-live.cdn.byteark.com/live/playlist.m3u8|User-Agent=Mozilla/5.0...\n')
+if __name__ == "__main__":
+    update_m3u()
