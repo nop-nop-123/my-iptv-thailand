@@ -12,7 +12,7 @@ https://monomax-uiripn.cdn.byteark.com/plain/th/1080p/index.m3u8|User-Agent=Mozi
 #EXTINF:-1 tvg-id="ch5.th" tvg-logo="https://i.imgur.com/wOIaqg7.png" group-title="ทีวีออนไลน์",ch5
 https://639bc5877c5fe.streamlock.net/tv5hdlive/tv5hdlive/chunklist_w1197956940.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTINF:-1 tvg-id="GMM25.th" tvg-logo="https://api.bananabatman.org/images/png/sd-gmmchannel.png" group-title="ทีวีออนไลน์",GMM25
-https://p0.cdn.vet/live/ch0/i/ch0i.m3u8?sid=b5yNDFmMTMxNmQ2MGJjMTQ1N2VmMQNzZkYTlmZmMzMGUyYzdh|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
+https://p0.cdn.vet/live/ch0/i/ch0i.m3u8?sid=b5yNWI3ZDUyNTI1NWM4ZDEzMTZmYQMWE5Mjg2NmI0YmRhNmUy|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTINF:-1 tvg-id="ch8.th" tvg-logo="https://api.bananabatman.org/images/png/hd-ch8.png" group-title="ทีวีออนไลน์",Ch8
 https://prsmedia-mykojh.cdn.byteark.com/fleetstream/live/720p/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTINF:-1 tvg-id="workpiont.th" tvg-logo="https://api.bananabatman.org/images/png/hd-workpoint.png" group-title="ทีวีออนไลน์",Workpiont
