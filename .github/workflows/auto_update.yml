@@ -1,8 +1,9 @@
 name: IPTV Auto Update
+
 on:
   schedule:
-    - cron: '0 0 * * *' # รันอัตโนมัติทุกเที่ยงคืน
-  workflow_dispatch:      # ปุ่มกดรันเองแบบ Manual
+    - cron: '0 */6 * * *'  # รันทุก 6 ชม.
+  workflow_dispatch:       # บรรทัดนี้สำคัญมาก! เพื่อให้มีปุ่มกดรันเองได้
 
 jobs:
   build:
@@ -17,10 +18,10 @@ jobs:
         run: pip install requests
       - name: Run update script
         run: python update_playlist.py
-      - name: Commit changes
+      - name: Commit and Push
         run: |
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
           git add playlist.m3u
-          git commit -m "Update dead links" || echo "No changes to commit"
+          git commit -m "Auto-update playlist" || exit 0
           git push
