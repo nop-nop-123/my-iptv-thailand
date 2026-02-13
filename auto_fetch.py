@@ -1,61 +1,56 @@
-import requests
-import re
+import requests,time
 
 OUTPUT="playlist.m3u"
 
-# 🇹🇭 Thai-only sources
 SOURCES=[
 "https://iptv-org.github.io/iptv/countries/th.m3u",
 "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/th.m3u"
 ]
 
 TARGET=[
-"ch3",
-"thairath",
-"mono29",
-"ch5",
-"gmm25",
-"ch8",
-"workpoint",
-"thaipbs",
-"mcot"
+"ch3","thairath","mono29","ch5",
+"gmm25","ch8","workpoint","thaipbs","mcot"
 ]
 
-def alive(url):
+def score(url):
     try:
+        t=time.time()
         r=requests.get(url,timeout=6)
-        return r.status_code==200 and "#EXTM3U" not in r.text[:50]
+        latency=time.time()-t
+
+        if r.status_code==200 and "#EXTM3U" not in r.text[:40]:
+            return latency
     except:
-        return False
+        pass
+    return 999
 
 found={}
 
 for src in SOURCES:
-    print("Scanning",src)
+    print("Scan:",src)
     try:
-        txt=requests.get(src,timeout=10).text.splitlines()
+        lines=requests.get(src,timeout=10).text.splitlines()
 
-        for i,l in enumerate(txt):
+        for i,l in enumerate(lines):
             if l.startswith("#EXTINF"):
-                name=l.lower()
+                low=l.lower()
 
                 for t in TARGET:
-                    if t in name and t not in found:
-                        url=txt[i+1]
+                    if t in low:
+                        url=lines[i+1]
 
-                        if url.startswith("http") and alive(url):
-                            found[t]=(l,url)
-                            print("✔",t)
+                        if url.startswith("http"):
+                            s=score(url)
+
+                            if s<999:
+                                if t not in found or s<found[t][2]:
+                                    found[t]=(l,url,s)
     except:
         pass
 
-# rebuild playlist
+# build playlist with fallback
 out=['#EXTM3U url-tvg="https://iptv-org.github.io/guide/th.xml"']
 
-for v in found.values():
-    out.append(v[0])
-    out.append(v[1])
-
-open(OUTPUT,"w").write("\n".join(out))
-print("Done:",len(found),"channels")
+for t,v in found.items():
+    out.app
 
