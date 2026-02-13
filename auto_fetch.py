@@ -1,39 +1,61 @@
 import requests
+import re
 
 OUTPUT="playlist.m3u"
-ORIGINAL="playlist.m3u"
 
-sources=[
-"https://iptv-org.github.io/iptv/countries/th.m3u"
+# 🇹🇭 Thai-only sources
+SOURCES=[
+"https://iptv-org.github.io/iptv/countries/th.m3u",
+"https://raw.githubusercontent.com/iptv-org/iptv/master/streams/th.m3u"
+]
+
+TARGET=[
+"ch3",
+"thairath",
+"mono29",
+"ch5",
+"gmm25",
+"ch8",
+"workpoint",
+"thaipbs",
+"mcot"
 ]
 
 def alive(url):
     try:
-        return requests.get(url,timeout=5).status_code==200
+        r=requests.get(url,timeout=6)
+        return r.status_code==200 and "#EXTM3U" not in r.text[:50]
     except:
         return False
 
-# อ่านไฟล์เดิม
-with open(ORIGINAL) as f:
-    old=f.readlines()
+found={}
 
-new=[]
-i=0
-while i<len(old):
-    line=old[i]
-    if line.startswith("#EXTINF"):
-        url=old[i+1].strip() if i+1<len(old) else ""
-        if url.startswith("http") and alive(url):
-            new.append(line.strip())
-            new.append(url)
-        else:
-            # 🔵 เก็บช่องไว้ (ไม่ลบ)
-            new.append(line.strip())
-            new.append(url)
-        i+=2
-    else:
-        i+=1
+for src in SOURCES:
+    print("Scanning",src)
+    try:
+        txt=requests.get(src,timeout=10).text.splitlines()
 
-open(OUTPUT,"w").write("\n".join(new))
-print("SAFE update done")
-"channels")
+        for i,l in enumerate(txt):
+            if l.startswith("#EXTINF"):
+                name=l.lower()
+
+                for t in TARGET:
+                    if t in name and t not in found:
+                        url=txt[i+1]
+
+                        if url.startswith("http") and alive(url):
+                            found[t]=(l,url)
+                            print("✔",t)
+    except:
+        pass
+
+# rebuild playlist
+out=['#EXTM3U url-tvg="https://iptv-org.github.io/guide/th.xml"']
+
+for v in found.values():
+    out.append(v[0])
+    out.append(v[1])
+
+open(OUTPUT,"w").write("\n".join(out))
+print("Done:",len(found),"channels")
+
