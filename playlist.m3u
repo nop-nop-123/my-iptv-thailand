@@ -26,4 +26,3 @@ http://usa.login.in.th:1935/ch8/ch8/playlist.m3u8|User-Agent=Mozilla/5.0 (Window
 #EXTINF:-1 tvg-id="MCOT"tvg-logo="https://i.imgur.com/ejPxGmU.png" group-title="ทีวีออนไลน์",MCOT
 https://mcothd-streaming-edge-cdn.mcot.net/tencentmcot/smil:tencentmcot.smil/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 
-
