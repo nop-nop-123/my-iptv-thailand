@@ -3,11 +3,9 @@
 #EXTINF:-1 tvg-id="ch3.th" tvg-logo="https://api.bananabatman.org/images/png/hd-ch3.png" group-title="ทีวีออนไลน์",Ch3
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0
-https://ch3-33-web.cdn.byteark.com/live/playlist_720p/index.m3u8
 
 #EXTINF:-1 tvg-id="thairath.th" tvg-logo="https://api.bananacake.org/images/png/hd-thairath.png" group-title="ทีวีออนไลน์",Thairath TV
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-https://ssai-streaming.thairath.co.th/bamm-csai/720p/index.m3u8
 
 #EXTINF:-1 tvg-id="mono29.th" tvg-logo="https://api.bananabatman.org/images/png/hd-mono.png" group-title="ทีวีออนไลน์",Mono29
 #KODIPROP:inputstream.adaptive.manifest_type=hls
@@ -22,11 +20,9 @@ https://bit.ly/4krIFhk
 
 #EXTINF:-1 tvg-id="ch8.th" tvg-logo="https://api.bananabatman.org/images/png/hd-ch8.png" group-title="ทีวีออนไลน์",Ch8
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-https://prsmedia-mykojh.cdn.byteark.com/fleetstream/live/720p/index.m3u8
 
 #EXTINF:-1 tvg-id="workpoint.th" tvg-logo="https://api.bananabatman.org/images/png/hd-workpoint.png" group-title="ทีวีออนไลน์",Workpoint
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-https://live-global-cdn-v02.sooplive.co.kr/live-stm-05/auth_master_playlist.m3u8
 
 #EXTINF:-1 tvg-id="thaipbs.th" tvg-logo="https://api.bananacake.org/images/png/hd-tpbs.png" group-title="ทีวีออนไลน์",Thai PBS
 #KODIPROP:inputstream.adaptive.manifest_typ
