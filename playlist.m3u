@@ -16,7 +16,6 @@ https://639bc5877c5fe.streamlock.net/tv5hdlive/tv5hdlive/chunklist_w1197956940.m
 https://p0.cdn.vet/live/ch0/i/ch0i.m3u8?sid=b5yZmU3OTlhYTBmNWU5NTI3NDIyYgNzdiOWExNDEzNjJkY2Rm
 #EXTINF:-1 tvg-id="ch8.th" tvg-logo="https://api.bananabatman.org/images/png/hd-ch8.png" group-title="ทีวีออนไลน์",Ch8
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-https://prsmedia-mykojh.cdn.byteark.com/fleetstream/live/720p/index.m3u8
 #EXTINF:-1 tvg-id="workpoint.th" tvg-logo="https://api.bananabatman.org/images/png/hd-workpoint.png" group-title="ทีวีออนไลน์",Workpoint
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 
