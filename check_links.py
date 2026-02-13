@@ -1,21 +1,40 @@
 import requests
 
-playlist = "playlist.m3u"
-lines = open(playlist).read().splitlines()
+playlist="playlist.m3u"
 
-new_lines = []
+def alive(url):
+    try:
+        return requests.get(url,timeout=5).status_code==200
+    except:
+        return False
 
-for line in lines:
-    if line.startswith("http"):
-        try:
-            r = requests.head(line, timeout=5)
-            if r.status_code >= 400:
-                print("Dead:", line)
-                # ใส่ fallback link หรือข้าม
-                continue
-        except:
-            print("Error:", line)
-            continue
-    new_lines.append(line)
+with open(playlist) as f:
+    lines=f.readlines()
 
-open(playlist, "w").write("\n".join(new_lines))
+out=[]
+i=0
+
+while i<len(lines):
+    line=lines[i]
+
+    if line.startswith("#EXTINF"):
+        url=lines[i+2].strip() if lines[i+1].startswith("#KODIPROP") else lines[i+1].strip()
+
+        if url.startswith("http"):
+            if not alive(url):
+                print("DEAD:",url)
+
+        out.append(line.rstrip())
+        if lines[i+1].startswith("#KODIPROP"):
+            out.append(lines[i+1].rstrip())
+            out.append(url)
+            i+=3
+        else:
+            out.append(url)
+            i+=2
+    else:
+        out.append(line.rstrip())
+        i+=1
+
+open(playlist,"w").write("\n".join(out))
+print("Finished — nothing deleted")
