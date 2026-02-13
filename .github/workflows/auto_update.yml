@@ -1,0 +1,26 @@
+name: IPTV Auto Update
+on:
+  schedule:
+    - cron: '0 0 * * *' # รันอัตโนมัติทุกเที่ยงคืน
+  workflow_dispatch:      # ปุ่มกดรันเองแบบ Manual
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+      - name: Install dependencies
+        run: pip install requests
+      - name: Run update script
+        run: python update_playlist.py
+      - name: Commit changes
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add playlist.m3u
+          git commit -m "Update dead links" || echo "No changes to commit"
+          git push
