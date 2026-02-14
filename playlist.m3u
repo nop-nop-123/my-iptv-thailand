@@ -2,7 +2,7 @@
 #EXTINF:-1 tvg-id="ch3.th"tvg-logo="https://api.bananacake.org/images/png/hd-ch3.png" group-title="ทีวีออนไลน์",Ch3
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0
-https://p1.cdn.vet/live/ch3/i/ch3i.m3u8?sid=b5yNTkyODJjNTdlMjNhNTZmZmM2NAOTJiMzMyYmI3MDE2YTdj
+https://p1.cdn.vet/live/ch3/i/ch3i.m3u8?sid=b5yNjIyMDIwY2RiOTkyYzY0NDllNgNjhmODRmOTRlY2VjZWYx
 #EXTINF:-1tvg-id="Thairath TV" tvg-logo="https://api.bananacake.org/images/png/hd-thairath.png" group-title="ทีวีออนไลน์",Thairath TV
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0
