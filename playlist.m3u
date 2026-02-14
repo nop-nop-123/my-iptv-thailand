@@ -1,10 +1,8 @@
-#EXTM3U url-tvg="https://iptv-org.github.io/guide/th.xml" refresh="3600"
+#EXTM3U
 #EXTINF:-1 tvg-id="ch3.th"tvg-logo="https://api.bananacake.org/images/png/hd-ch3.png" group-title="ทีวีออนไลน์",Ch3
-https://p1.cdn.vet/live/ch3/i/ch3i.m3u8?sid=b5yMzE2ZDdiNDk5YTI4OTFjNjQ0NwNDg5ZTg2YTlkODVlOWRj
+https://p1.cdn.vet/live/ch3/i/ch3i.m3u8?sid=b5yMzE2ZDdiNDk5YTI4OTFjNjQ0NwNDg5ZTg2YTlkODVlOWRj|User-Agent=Mozilla/5.0 
 #EXTINF:-1tvg-id="Thairath TV" tvg-logo="https://api.bananacake.org/images/png/hd-thairath.png" group-title="ทีวีออนไลน์",Thairath TV
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0
-https://p1.cdn.vet/live/ch39/i/ch39i.m3u8?sid=b5yZDBjMWU2MGQyYWQxOTE1YzhjMgMjBkODdhMzI2MDY4YjZj
+https://p1.cdn.vet/live/ch39/i/ch39i.m3u8?sid=b5yMmFiMWVmYzlhN2RmNTQzZDU4ZgNmQ4NTQwYjRhMTUzZjhk|User-Agent=Mozilla/5.0 
 #EXTINF:-1 tvg-id="mono29.th" tvg-logo="https://api.bananabatman.org/images/png/hd-mono.png" group-title="ทีวีออนไลน์",Mono29
 https://monomax-uiripn.cdn.byteark.com/plain/th/1080p/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTINF:-1 tvg-id="ch5.th" tvg-logo="https://i.imgur.com/wOIaqg7.png" group-title="ทีวีออนไลน์",ch5
