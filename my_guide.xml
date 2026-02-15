@@ -1,24 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tv>
   <channel id="ch3.th"><display-name>Ch3 HD</display-name></channel>
-  <channel id="ThairathTV.th"><display-name>Thairath TV</display-name></channel>
+  <channel id="Thairath TV"><display-name>Thairath TV</display-name></channel>
   <channel id="mono29.th"><display-name>Mono29</display-name></channel>
   <channel id="ch5.th"><display-name>CH5 HD</display-name></channel>
-  <channel id="GMM25.th"><display-name>GMM25</display-name></channel>
-  <channel id="one31.th"><display-name>One31 HD</display-name></channel>
-  <channel id="ch8.th"><display-name>Ch8 HD</display-name></channel>
-  <channel id="workpoint.th"><display-name>Workpoint</display-name></channel>
-  <channel id="ThaiPBS.th"><display-name>Thai PBS HD</display-name></channel>
-  <channel id="MCOTHD.th"><display-name>MCOT HD</display-name></channel>
+  <channel id="workpiont.th"><display-name>Workpoint</display-name></channel>
 
-  <programme start="20260215000000 +0700" stop="20260216000000 +0700" channel="ch3.th"><title lang="th">รายการช่อง 3 HD</title></programme>
-  <programme start="20260215000000 +0700" stop="20260216000000 +0700" channel="ThairathTV.th"><title lang="th">รายการไทยรัฐทีวี</title></programme>
-  <programme start="20260215000000 +0700" stop="20260216000000 +0700" channel="mono29.th"><title lang="th">หนังดี ซีรีส์ดัง Mono29</title></programme>
-  <programme start="20260215000000 +0700" stop="20260216000000 +0700" channel="ch5.th"><title lang="th">รายการช่อง 5</title></programme>
-  <programme start="20260215000000 +0700" stop="20260216000000 +0700" channel="GMM25.th"><title lang="th">รายการ GMM25</title></programme>
-  <programme start="20260215000000 +0700" stop="20260216000000 +0700" channel="one31.th"><title lang="th">ช่อง One31</title></programme>
-  <programme start="20260215000000 +0700" stop="20260216000000 +0700" channel="ch8.th"><title lang="th">รายการช่อง 8</title></programme>
-  <programme start="20260215000000 +0700" stop="20260216000000 +0700" channel="workpoint.th"><title lang="th">รายการเวิร์คพอยท์</title></programme>
-  <programme start="20260215000000 +0700" stop="20260216000000 +0700" channel="ThaiPBS.th"><title lang="th">รายการ Thai PBS</title></programme>
-  <programme start="20260215000000 +0700" stop="20260216000000 +0700" channel="MCOTHD.th"><title lang="th">รายการ MCOT HD</title></programme>
+  <programme start="20260215060000 +0700" stop="20260215083000 +0700" channel="ch3.th">
+    <title lang="th">เรื่องเล่าเช้านี้</title>
+    <desc lang="th">อัปเดตข่าวสารยามเช้ากับประเด็นร้อนรอบวัน</desc>
+  </programme>
+  <programme start="20260215083000 +0700" stop="20260215103000 +0700" channel="ch3.th">
+    <title lang="th">ผู้หญิงยกกำลังแจ๋ว</title>
+    <desc lang="th">รายการวาไรตี้สำหรับผู้หญิงยุคใหม่</desc>
+  </programme>
+  <programme start="20260215103000 +0700" stop="20260215180000 +0700" channel="ch3.th">
+    <title lang="th">ละครดังข้ามเวลา</title>
+    <desc lang="th">รวมละครยอดฮิตในตำนานกลับมาให้ชมอีกครั้ง</desc>
+  </programme>
+
+  <programme start="20260215070000 +0700" stop="20260215090000 +0700" channel="Thairath TV">
+    <title lang="th">ข่าวเช้าไทยรัฐ</title>
+    <desc lang="th">สรุปข่าวเช้า เจาะลึกสถานการณ์ปัจจุบัน</desc>
+  </programme>
+  <programme start="20260215090000 +0700" stop="20260215110000 +0700" channel="Thairath TV">
+    <title lang="th">ข่าวใส่ไข่</title>
+    <desc lang="th">เม้าท์ข่าวบันเทิงและเรื่องเด่นในโซเชียล</desc>
+  </programme>
+
+  <programme start="20260215080000 +0700" stop="20260215120000 +0700" channel="mono29.th">
+    <title lang="th">Premium Blockbuster</title>
+    <desc lang="th">ภาพยนตร์แอคชั่นฟอร์มยักษ์ระดับโลก</desc>
+  </programme>
+  <programme start="20260215120000 +0700" stop="20260215180000 +0700" channel="mono29.th">
+    <title lang="th">Premium Series</title>
+    <desc lang="th">ซีรีส์สืบสวนสอบสวนยอดนิยมจากต่างประเทศ</desc>
+  </programme>
+
+  <programme start="20260215080000 +0700" stop="20260215100000 +0700" channel="workpiont.th">
+    <title lang="th">รายการตลก 6 ฉาก</title>
+    <desc lang="th">รวมซิตคอมตลกคลายเครียด</desc>
+  </programme>
+  <programme start="20260215100000 +0700" stop="20260215120000 +0700" channel="workpiont.th">
+    <title lang="th">ปัญญาปันสุข</title>
+    <desc lang="th">รายการวาไรตี้ส่งต่อความสุขและกำลังใจ</desc>
+  </programme>
 </tv>
