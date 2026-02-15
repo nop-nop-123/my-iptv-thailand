@@ -21,3 +21,5 @@ https://thaipbs-live.cdn.byteark.com/live/playlist.m3u8|User-Agent=Mozilla/5.0 (
 http://usa.login.in.th:1935/ch8/ch8/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTINF:-1 tvg-id="MCOT"tvg-logo="https://i.imgur.com/ejPxGmU.png" group-title="ทีวีออนไลน์",MCOT
 https://mcothd-streaming-edge-cdn.mcot.net/tencentmcot/smil:tencentmcot.smil/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
+#EXTINF:-1 tvg-id="ch3.th"tvg-logo="https://api.bananacake.org/images/png/hd-ch3.png" group-title="ทีวีออนไลน์",Ch3
+https://tv.trueid.net/th-th/live/ch3-hd.m3u|User-Agent=Mozilla/5.0 
