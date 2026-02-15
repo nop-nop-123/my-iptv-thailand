@@ -11,53 +11,26 @@
   <channel id="ThaiPBS"><display-name>Thai PBS HD</display-name></channel>
   <channel id="MCOT"><display-name>MCOT HD</display-name></channel>
 
-  <programme start="20260215080000 +0700" stop="20260215100000 +0700" channel="One31">
-    <title lang="th">One บันเทิง</title>
-    <desc lang="th">อัปเดตข่าวบันเทิงและเรื่องราวของดาราในเครือ One31</desc>
-  </programme>
-  <programme start="20260215100000 +0700" stop="20260215120000 +0700" channel="One31">
-    <title lang="th">The Golden Song</title>
-    <desc lang="th">รายการประกวดร้องเพลงเพลงเอก เพลงเพราะในตำนาน</desc>
-  </programme>
-  <programme start="20260215180000 +0700" stop="20260215200000 +0700" channel="One31">
-    <title lang="th">ข่าวภาคค่ำ One News</title>
-    <desc lang="th">สรุปประเด็นข่าวใหญ่รอบวัน</desc>
-  </programme>
+  <programme start="20260215060000 +0700" stop="20260215090000 +0700" channel="ch3.th"><title lang="th">เรื่องเล่าเช้านี้</title></programme>
+  <programme start="20260215090000 +0700" stop="20260215120000 +0700" channel="ch3.th"><title lang="th">ผู้หญิงยกกำลังแจ๋ว</title></programme>
+  <programme start="20260215120000 +0700" stop="20260215180000 +0700" channel="ch3.th"><title lang="th">ละครดังข้ามเวลา</title></programme>
+  <programme start="20260215180000 +0700" stop="20260215235900 +0700" channel="ch3.th"><title lang="th">ข่าวนอกลู่ / ละครหลังข่าว</title></programme>
 
-  <programme start="20260215090000 +0700" stop="20260215110000 +0700" channel="GMM25.th">
-    <title lang="th">แฉข่าวเช้า</title>
-    <desc lang="th">รายการคุยข่าวสุดแซ่บตามสไตล์ GMM25</desc>
-  </programme>
-  <programme start="20260215110000 +0700" stop="20260215130000 +0700" channel="GMM25.th">
-    <title lang="th">ซีรีส์วัยรุ่น GMMTV</title>
-    <desc lang="th">รวมซีรีส์ยอดฮิตจากนักแสดงวัยรุ่นชื่อดัง</desc>
-  </programme>
+  <programme start="20260215060000 +0700" stop="20260215090000 +0700" channel="Thairath TV"><title lang="th">ข่าวเช้าไทยรัฐ</title></programme>
+  <programme start="20260215090000 +0700" stop="20260215110000 +0700" channel="Thairath TV"><title lang="th">ข่าวใส่ไข่</title></programme>
+  <programme start="20260215110000 +0700" stop="20260215235900 +0700" channel="Thairath TV"><title lang="th">ไทยรัฐนิวส์โชว์</title></programme>
 
-  <programme start="20260215070000 +0700" stop="20260215093000 +0700" channel="ch8.th">
-    <title lang="th">ปากท้องต้องรู้</title>
-    <desc lang="th">เรื่องปากท้อง ของกิน และอาชีพที่น่าสนใจ</desc>
-  </programme>
-  <programme start="20260215190000 +0700" stop="20260215210000 +0700" channel="ch8.th">
-    <title lang="th">มวยไทย Super Champ</title>
-    <desc lang="th">การถ่ายทอดสดมวยไทยสุดมันส์ระดับโลก</desc>
-  </programme>
+  <programme start="20260215060000 +0700" stop="20260215100000 +0700" channel="One31"><title lang="th">One บันเทิง</title></programme>
+  <programme start="20260215100000 +0700" stop="20260215150000 +0700" channel="One31"><title lang="th">The Golden Song</title></programme>
+  <programme start="20260215150000 +0700" stop="20260215235900 +0700" channel="One31"><title lang="th">สุภาพบุรุษจอมโจร / ข่าวค่ำ</title></programme>
 
-  <programme start="20260215080000 +0700" stop="20260215100000 +0700" channel="ThaiPBS">
-    <title lang="th">รายการเด็ก Kids and Family</title>
-    <desc lang="th">รายการส่งเสริมความรู้และจินตนาการสำหรับเด็ก</desc>
-  </programme>
-  <programme start="20260215200000 +0700" stop="20260215213000 +0700" channel="ThaiPBS">
-    <title lang="th">ทันโลกกับ Thai PBS</title>
-    <desc lang="th">วิเคราะห์สถานการณ์โลกและข่าวต่างประเทศ</desc>
-  </programme>
+  <programme start="20260215060000 +0700" stop="20260215120000 +0700" channel="workpiont.th"><title lang="th">รายการตลก 6 ฉาก</title></programme>
+  <programme start="20260215120000 +0700" stop="20260215180000 +0700" channel="workpiont.th"><title lang="th">ปัญญาปันสุข</title></programme>
+  <programme start="20260215180000 +0700" stop="20260215235900 +0700" channel="workpiont.th"><title lang="th">The Wall Song ร้องข้ามกำแพง</title></programme>
 
-  <programme start="20260215090000 +0700" stop="20260215110000 +0700" channel="MCOT">
-    <title lang="th">9 การ์ตูน</title>
-    <desc lang="th">การ์ตูนสุดฮิตที่ครองใจเด็กๆ มาอย่างยาวนาน</desc>
-  </programme>
-  <programme start="20260215180000 +0700" stop="20260215190000 +0700" channel="MCOT">
-    <title lang="th">ไนน์เอ็นเตอร์เทน</title>
-    <desc lang="th">ข่าวบันเทิงคุณภาพ อัปเดตทุกความเคลื่อนไหว</desc>
-  </programme>
+  <programme start="20260215060000 +0700" stop="20260215120000 +0700" channel="MCOT"><title lang="th">9 การ์ตูน / ข่าวเที่ยง</title></programme>
+  <programme start="20260215120000 +0700" stop="20260215235900 +0700" channel="MCOT"><title lang="th">ไนน์เอ็นเตอร์เทน / ข่าวค่ำ</title></programme>
 
-  </tv>>
+  <programme start="20260215060000 +0700" stop="20260215120000 +0700" channel="ThaiPBS"><title lang="th">รายการเด็ก / ข่าวเที่ยง</title></programme>
+  <programme start="20260215120000 +0700" stop="20260215235900 +0700" channel="ThaiPBS"><title lang="th">ทันโลกกับ Thai PBS</title></programme>
+</tv>
