@@ -2,13 +2,13 @@ name: Auto Update IPTV
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # รันทุกเที่ยงคืน
-  workflow_dispatch:      # ปุ่มกดรันเอง
+    - cron: '0 0 * * *'
+  workflow_dispatch:
 
 jobs:
   check-links:
     runs-on: ubuntu-latest
-    # เพิ่มส่วนนี้เพื่อบังคับสิทธิ์การเขียนไฟล์
+    # สำคัญมาก: เพิ่ม 2 บรรทัดนี้เพื่อให้บอทมีสิทธิ์แก้ไขไฟล์ใน Github ของคุณ
     permissions:
       contents: write
     
@@ -32,7 +32,6 @@ jobs:
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git add playlist.m3u
-          # ตรวจสอบว่ามีอะไรเปลี่ยนแปลงไหมก่อนบันทึก
           if ! git diff --cached --quiet; then
             git commit -m "Auto-Update: Removed dead links $(date +'%Y-%m-%d %H:%M')"
             git push
