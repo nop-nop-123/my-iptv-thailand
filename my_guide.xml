@@ -2,7 +2,7 @@
 <tv>
   <channel id="ch3.th"><display-name>Ch3 HD</display-name></channel>
   <channel id="Thairath TV"><display-name>Thairath TV</display-name></channel>
-  <channel id="Mono29.th"><display-name>Mono29</display-name></channel>
+  <channel id="mono29.th"><display-name>Mono29</display-name></channel>
   <channel id="ch5.th"><display-name>CH5 HD</display-name></channel>
   <channel id="GMM25.th"><display-name>GMM25</display-name></channel>
   <channel id="One31.th"><display-name>One31 HD</display-name></channel>
@@ -14,11 +14,8 @@
   <programme start="20260215160000 +0700" stop="20260215182000 +0700" channel="ch3.th"><title lang="th">ข่าวนอกลู่ / เรื่องเด่นเย็นนี้</title></programme>
   <programme start="20260215182000 +0700" stop="20260216000000 +0700" channel="ch3.th"><title lang="th">ละครหลังข่าว / ข่าวสามมิติ</title></programme>
 
-   <programme start="20260215210000 +0700" stop="20260215233000 +0700" channel="mono29.th"> <title lang="th">Mono Night Movie</title></programme> 
-
-  <programme start="20260215233000 +0700" stop="20260216013000 +0700" channel="mono29.th">   <title lang="th">Late Night Show</title></programme>  
- 
-
+  <programme start="20260215210000 +0700" stop="20260215233000 +0700" channel="mono29.th"><title lang="th">Mono Night Movie</title></programme> 
+  <programme start="20260215233000 +0700" stop="20260216013000 +0700" channel="mono29.th"><title lang="th">Late Night Show</title></programme>  
 
   <programme start="20260215170000 +0700" stop="20260215190000 +0700" channel="One31.th"><title lang="th">ข่าวเย็นช่องวัน / ดวลเพลงชิงทุน</title></programme>
   <programme start="20260215190000 +0700" stop="20260216000000 +0700" channel="One31.th"><title lang="th">ละครเย็น / ข่าวค่ำช่องวัน</title></programme>
