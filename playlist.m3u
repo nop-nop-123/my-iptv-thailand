@@ -17,6 +17,6 @@ https://prsmedia-mykojh.cdn.byteark.com/fleetstream/live/720p/index.m3u8|User-Ag
 https://live-global-cdn-v02.sooplive.co.kr/live-stmc-33/auth_playlist.m3u8?aid=.A32.pxqRXFPZNcY9Qg1.ZQzCnUjrc7HR-vtYds4Ftofc__Js5kdZ088Y0LO1HgpIPaLlWvBeS1FoqCm0QSZNyunIbyzn3lu8y8aIqDFAyRIm_SUT4Xic2fhcH1K5s9bxScBiiXYazWtxO75grx905ZbyKq48K1BafssB9vyx7xGFS1I_MouPVIWuqIpS5e29tkIgUkbGn-8eAz1sS4v9|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTINF:-1 tvg-id="ThaiPBS.th" tvg-logo="https://api.bananacake.org/images/png/hd-tpbs.png" group-title="ทีวีออนไลน์",Thai PBS
 https://thaipbs-live.cdn.byteark.com/live/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
-#EXTINF:-1 tvg-id="MCOTHD.th" tvg-logo="https://i.imgur.com/ejPxGmU.png" group-title="ทีวีออนไลน์",MCOT
+#EXTINF:-1 tvg-id="MCOT.th" tvg-logo="https://i.imgur.com/ejPxGmU.png" group-title="ทีวีออนไลน์",MCOT
 https://mcothd-streaming-edge-cdn.mcot.net/tencentmcot/smil:tencentmcot.smil/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 
