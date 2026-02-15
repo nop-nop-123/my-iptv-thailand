@@ -1,24 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tv generator-info-name="MyCustomEPG">
+<tv>
+  <channel id="ch3.th"><display-name>Ch3</display-name></channel>
+  <channel id="Thairath TV"><display-name>Thairath TV</display-name></channel>
+  <channel id="mono29.th"><display-name>Mono29</display-name></channel>
+  <channel id="ch5.th"><display-name>ch5</display-name></channel>
+  <channel id="GMM25.th"><display-name>GMM25</display-name></channel>
+  <channel id="One31"><display-name>One31</display-name></channel>
+  <channel id="ch8.th"><display-name>Ch8</display-name></channel>
+  <channel id="workpiont.th"><display-name>Workpoint</display-name></channel>
+  <channel id="ThaiPBS"><display-name>Thai PBS</display-name></channel>
+  <channel id="MCOT"><display-name>MCOT</display-name></channel>
 
-  <channel id="ch3.th">
-    <display-name>Channel 3 HD</display-name>
-  </channel>
-  <channel id="Thairath TV">
-    <display-name>Thairath TV</display-name>
-  </channel>
-  <channel id="mono29.th">
-    <display-name>Mono29</display-name>
-  </channel>
-
-  <programme start="20260215080000 +0700" stop="20260215090000 +0700" channel="ch3.th">
-    <title lang="th">ข่าวเด่นยามเช้า</title>
-    <desc lang="th">อัปเดตสถานการณ์ข่าวประจำวัน</desc>
+  <programme start="20260215150000 +0700" stop="20260215160000 +0700" channel="ch3.th">
+    <title lang="th">รายการข่าว/ละคร ช่อง 3</title>
   </programme>
-
-  <programme start="20260215090000 +0700" stop="20260215100000 +0700" channel="Thairath TV">
-    <title lang="th">ข่าวใส่ไข่</title>
-    <desc lang="th">รายการเล่าข่าวบันเทิงและเรื่องเด่น</desc>
+  <programme start="20260215150000 +0700" stop="20260215160000 +0700" channel="Thairath TV">
+    <title lang="th">รายการข่าว ไทยรัฐทีวี</title>
   </programme>
-
+  <programme start="20260215150000 +0700" stop="20260215160000 +0700" channel="mono29.th">
+    <title lang="th">หนังดี ซีรีส์ดัง Mono29</title>
+  </programme>
+  <programme start="20260215150000 +0700" stop="20260215160000 +0700" channel="workpiont.th">
+    <title lang="th">รายการบันเทิง เวิร์คพอยท์</title>
+  </programme>
+  <programme start="20260215150000 +0700" stop="20260215160000 +0700" channel="One31">
+    <title lang="th">ละคร/ซิทคอม ช่อง One</title>
+  </programme>
 </tv>
