@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tv>
   <channel id="ch3.th"><display-name>Ch3 HD</display-name></channel>
-  <channel id="Thairath TV"><display-name>Thairath TV</display-name></channel>
+  <channel id="thairath.th"><display-name>Thairath TV</display-name></channel>
   <channel id="mono29.th"><display-name>Mono29</display-name></channel>
   <channel id="ch5.th"><display-name>CH5 HD</display-name></channel>
-  <channel id="GMM25.th"><display-name>GMM25</display-name></channel>
-  <channel id="One31.th"><display-name>One31 HD</display-name></channel>
+  <channel id="gmm25.th"><display-name>GMM25</display-name></channel>
+  <channel id="one31.th"><display-name>One31 HD</display-name></channel>
   <channel id="ch8.th"><display-name>Ch8 HD</display-name></channel>
   <channel id="workpoint.th"><display-name>Workpoint</display-name></channel>
-  <channel id="ThaiPBS.th"><display-name>Thai PBS HD</display-name></channel>
-  <channel id="MCOT.th"><display-name>MCOT HD</display-name></channel>
+  <channel id="thaipbs.th"><display-name>Thai PBS HD</display-name></channel>
+  <channel id="mcot.th"><display-name>MCOT HD</display-name></channel>
 
   <programme start="20260215203000 +0700" stop="20260216000000 +0700" channel="ch3.th"><title lang="th">ละครหลังข่าว / ข่าวสามมิติ</title></programme>
   <programme start="20260216060000 +0700" stop="20260216090000 +0700" channel="ch3.th"><title lang="th">เรื่องเล่าเช้านี้</title></programme>
@@ -20,20 +20,20 @@
   <programme start="20260216180000 +0700" stop="20260216210000 +0700" channel="mono29.th"><title lang="th">Premium Blockbuster</title></programme>
   <programme start="20260217180000 +0700" stop="20260217210000 +0700" channel="mono29.th"><title lang="th">Premium Blockbuster</title></programme>
 
-  <programme start="20260215200000 +0700" stop="20260216000000 +0700" channel="One31.th"><title lang="th">ละครเด็ดช่องวัน / ข่าวค่ำ</title></programme>
-  <programme start="20260216190000 +0700" stop="20260216220000 +0700" channel="One31.th"><title lang="th">ละครเย็น / ซีรีส์ดัง</title></programme>
-  <programme start="20260217190000 +0700" stop="20260217220000 +0700" channel="One31.th"><title lang="th">ละครเย็น / ซีรีส์ดัง</title></programme>
+  <programme start="20260215200000 +0700" stop="20260216000000 +0700" channel="one31.th"><title lang="th">ละครเด็ดช่องวัน / ข่าวค่ำ</title></programme>
+  <programme start="20260216190000 +0700" stop="20260216220000 +0700" channel="one31.th"><title lang="th">ละครเย็น / ซีรีส์ดัง</title></programme>
+  <programme start="20260217190000 +0700" stop="20260217220000 +0700" channel="one31.th"><title lang="th">ละครเย็น / ซีรีส์ดัง</title></programme>
 
-  <programme start="20260215170000 +0700" stop="20260215220000 +0700" channel="Thairath TV"><title lang="th">ไทยรัฐนิวส์โชว์ (สด)</title></programme>
-  <programme start="20260216170000 +0700" stop="20260216220000 +0700" channel="Thairath TV"><title lang="th">ไทยรัฐนิวส์โชว์ (สด)</title></programme>
-  <programme start="20260217170000 +0700" stop="20260217220000 +0700" channel="Thairath TV"><title lang="th">ไทยรัฐนิวส์โชว์ (สด)</title></programme>
+  <programme start="20260215170000 +0700" stop="20260215220000 +0700" channel="thairath.th"><title lang="th">ไทยรัฐนิวส์โชว์ (สด)</title></programme>
+  <programme start="20260216170000 +0700" stop="20260216220000 +0700" channel="thairath.th"><title lang="th">ไทยรัฐนิวส์โชว์ (สด)</title></programme>
+  <programme start="20260217170000 +0700" stop="20260217220000 +0700" channel="thairath.th"><title lang="th">ไทยรัฐนิวส์โชว์ (สด)</title></programme>
 
   <programme start="20260215210000 +0700" stop="20260216000000 +0700" channel="workpoint.th"><title lang="th">The Wall Song ร้องข้ามกำแพง</title></programme>
   <programme start="20260216190000 +0700" stop="20260216210000 +0700" channel="workpoint.th"><title lang="th">รายการบันเทิงเวิร์คพอยท์</title></programme>
 
   <programme start="20260215170000 +0700" stop="20260217235900 +0700" channel="ch5.th"><title lang="th">รายการภาคค่ำ ททบ.5</title></programme>
-  <programme start="20260215170000 +0700" stop="20260217235900 +0700" channel="GMM25.th"><title lang="th">GMM25 Series / ข่าวบันเทิง</title></programme>
+  <programme start="20260215170000 +0700" stop="20260217235900 +0700" channel="gmm25.th"><title lang="th">GMM25 Series / ข่าวบันเทิง</title></programme>
   <programme start="20260215170000 +0700" stop="20260217235900 +0700" channel="ch8.th"><title lang="th">ละครช่อง 8 / มวยไทย</title></programme>
-  <programme start="20260215170000 +0700" stop="20260217235900 +0700" channel="ThaiPBS.th"><title lang="th">ข่าวค่ำมิติใหม่ / ทันโลก</title></programme>
-  <programme start="20260215170000 +0700" stop="20260217235900 +0700" channel="MCOT.th"><title lang="th">ข่าวค่ำไนน์เอ็นเตอร์เทน</title></programme>
+  <programme start="20260215170000 +0700" stop="20260217235900 +0700" channel="thaipbs.th"><title lang="th">ข่าวค่ำมิติใหม่ / ทันโลก</title></programme>
+  <programme start="20260215170000 +0700" stop="20260217235900 +0700" channel="mcot.th"><title lang="th">ข่าวค่ำไนน์เอ็นเตอร์เทน</title></programme>
 </tv>
