@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tv generator-info-name="MyCustomEPG">
+
+  <channel id="ch3.th">
+    <display-name>Channel 3 HD</display-name>
+  </channel>
+  <channel id="Thairath TV">
+    <display-name>Thairath TV</display-name>
+  </channel>
+  <channel id="mono29.th">
+    <display-name>Mono29</display-name>
+  </channel>
+
+  <programme start="20260215080000 +0700" stop="20260215090000 +0700" channel="ch3.th">
+    <title lang="th">ข่าวเด่นยามเช้า</title>
+    <desc lang="th">อัปเดตสถานการณ์ข่าวประจำวัน</desc>
+  </programme>
+
+  <programme start="20260215090000 +0700" stop="20260215100000 +0700" channel="Thairath TV">
+    <title lang="th">ข่าวใส่ไข่</title>
+    <desc lang="th">รายการเล่าข่าวบันเทิงและเรื่องเด่น</desc>
+  </programme>
+
+</tv>
