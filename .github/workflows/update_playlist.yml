@@ -2,12 +2,16 @@ name: Auto Update IPTV
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # รันอัตโนมัติทุกเที่ยงคืน
-  workflow_dispatch:      # ปุ่มกดรันเองในหน้า Actions
+    - cron: '0 0 * * *'  # รันทุกเที่ยงคืน
+  workflow_dispatch:      # ปุ่มกดรันเอง
 
 jobs:
   check-links:
     runs-on: ubuntu-latest
+    # เพิ่มส่วนนี้เพื่อบังคับสิทธิ์การเขียนไฟล์
+    permissions:
+      contents: write
+    
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
@@ -28,5 +32,10 @@ jobs:
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git add playlist.m3u
-          git commit -m "Update: Removed dead links $(date)" || echo "No changes to commit"
-          git push
+          # ตรวจสอบว่ามีอะไรเปลี่ยนแปลงไหมก่อนบันทึก
+          if ! git diff --cached --quiet; then
+            git commit -m "Auto-Update: Removed dead links $(date +'%Y-%m-%d %H:%M')"
+            git push
+          else
+            echo "No changes to commit"
+          fi
