@@ -8,10 +8,8 @@ on:
 jobs:
   check-links:
     runs-on: ubuntu-latest
-    # สำคัญมาก: เพิ่ม 2 บรรทัดนี้เพื่อให้บอทมีสิทธิ์แก้ไขไฟล์ใน Github ของคุณ
     permissions:
-      contents: write
-    
+      contents: write # สำคัญมากเพื่อให้เซฟไฟล์กลับเข้า GitHub ได้
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
@@ -27,14 +25,10 @@ jobs:
       - name: Run link checker
         run: python check_links.py
 
-      - name: Commit and Push changes
+      - name: Commit and Push
         run: |
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
           git add playlist.m3u
-          if ! git diff --cached --quiet; then
-            git commit -m "Auto-Update: Removed dead links $(date +'%Y-%m-%d %H:%M')"
-            git push
-          else
-            echo "No changes to commit"
-          fi
+          git commit -m "Auto-update: Remove dead links" || exit 0
+          git push
