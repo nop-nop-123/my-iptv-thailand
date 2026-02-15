@@ -19,3 +19,5 @@ https://live-global-cdn-v02.sooplive.co.kr/live-stmc-33/auth_playlist.m3u8?aid=.
 https://thaipbs-live.cdn.byteark.com/live/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTINF:-1 tvg-id="MCOTHD.th" tvg-logo="https://i.imgur.com/ejPxGmU.png" group-title="ทีวีออนไลน์",MCOT
 https://mcothd-streaming-edge-cdn.mcot.net/tencentmcot/smil:tencentmcot.smil/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
+#EXTINF:-1 tvg-id="mono29.th" tvg-logo="https://api.bananabatman.org/images/png/hd-mono.png" group-title="ทีวีออนไลน์",Mono29
+https://p1.cdn.vet/live/ch38/i/ch38i.m3u8?sid=b5yN2Q1NTM0NzgxZjljMDZlNmY4OAMzQ1YzcyNTYzNzA3M2Nk|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
