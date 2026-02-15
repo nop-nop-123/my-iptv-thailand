@@ -1,6 +1,6 @@
 #EXTM3U
 #EXTINF:-1 tvg-id="ch3.th"tvg-logo="https://api.bananacake.org/images/png/hd-ch3.png" group-title="ทีวีออนไลน์",Ch3
-https://p0.cdn.vet/live/ch3/i/ch3i.m3u8?sid=b5yY2E3YjljNDFjMjZjZTM0OWQxNgMjMxODJmZWI5ZmIyYmYx|User-Agent=Mozilla/5.0 
+https://p0.cdn.vet/live/ch3/i/ch3i.m3u8?sid=b5yZjZlZDllOTI0MWZiNjc1OWIwOQN2ZkYmYwNGYzNDdlNDhi|User-Agent=Mozilla/5.0 
 #EXTINF:-1 tvg-id="Thairath TV" tvg-logo="https://api.bananacake.org/images/png/hd-thairath.png" group-title="ทีวีออนไลน์",Thairath TV
 https://p0.cdn.vet/live/ch39/i/ch39i.m3u8?sid=b5yZmJkMzM0ODMwMjU0YTQ3YWMwZgNmE2MDE1MjQxZTk4Yzcy|User-Agent=Mozilla/5.0&Origin=https://www.thairath.co.th
 #EXTINF:-1 tvg-id="mono29.th" tvg-logo="https://api.bananabatman.org/images/png/hd-mono.png" group-title="ทีวีออนไลน์",Mono29
