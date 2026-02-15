@@ -1,14 +1,17 @@
 import requests
 
 def check_link(url):
-    # แยกเอาแค่ URL จริงๆ ก่อนถึงตัว | (Pipe) เพื่อไม่ให้สคริปต์พัง
+    # แยกเอาแค่ URL จริงๆ ก่อนถึงตัว | (Pipe) เพื่อป้องกัน Error
     clean_url = url.split('|')[0].strip()
-    headers = {
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
-    }
+    
+    # ดึง User-Agent จากลิงก์มาใช้ (ถ้ามี) เพื่อให้การเช็กแม่นยำขึ้น
+    headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'}
+    if '|User-Agent=' in url:
+        headers['User-Agent'] = url.split('|User-Agent=')[1].split('|')[0]
+
     try:
-        # ใช้คำสั่ง GET แบบ stream เพื่อเช็กสถานะโดยไม่โหลดไฟล์เต็ม
-        response = requests.get(clean_url, headers=headers, timeout=10, stream=True)
+        # เช็กสถานะลิงก์ (timeout 15 วินาที เพื่อรองรับ Server ที่ตอบสนองช้า)
+        response = requests.get(clean_url, headers=headers, timeout=15, stream=True)
         return response.status_code == 200
     except:
         return False
@@ -24,25 +27,28 @@ def update_m3u():
 
     new_content = ["#EXTM3U\n"]
     i = 0
+    print(f"กำลังเริ่มตรวจสอบลิงก์ทั้งหมด...")
+    
     while i < len(lines):
         line = lines[i].strip()
         if line.startswith("#EXTINF"):
             info = line
             if i + 1 < len(lines):
                 url = lines[i+1].strip()
-                print(f"กำลังเช็ค: {url.split('|')[0][:50]}...") # แสดง Log สั้นๆ
+                # ตรวจสอบสถานะลิงก์
                 if check_link(url):
+                    print(f"✅ ผ่าน: {url[:50]}...")
                     new_content.append(info + "\n")
                     new_content.append(url + "\n")
                 else:
-                    print(">>> ลิงก์ตาย: คัดออก")
+                    print(f"❌ เสีย (ลบออก): {url[:50]}...")
             i += 2
         else:
             i += 1
 
     with open(filename, "w", encoding="utf-8") as f:
         f.writelines(new_content)
-    print("อัปเดตเรียบร้อย!")
+    print("อัปเดตไฟล์สำเร็จ!")
 
 if __name__ == "__main__":
-    update_m3u()update_m3u()update_m3u()update_m3u()update_m3u()
+    update_m3u()update_m3u()update_m3u()update_m3u()update_m3u()update_m3u()
