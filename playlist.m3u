@@ -1,14 +1,14 @@
 #EXTM3U
 #EXTINF:-1 tvg-id="ch3.th" tvg-logo="https://api.bananacake.org/images/png/hd-ch3.png" group-title="ทีวีออนไลน์",Ch3
-https://p1.cdn.vet/live/ch3/i/ch3i.m3u8?sid=b5yMzY4ODcyYmNiYzE5ZWFkMjkxNwMWQ5ZTMxMTQ0ZjRjMzcz|User-Agent=Mozilla/5.0 
+https://p1.cdn.vet/live/ch3/i/ch3i.m3u8?sid=b5yOGZiMWUwY2Y2Y2ViNzIzN2M1MwOTE3MjdjNzQyZjEwODE5|User-Agent=Mozilla/5.0 
 #EXTINF:-1 tvg-id="ThairathTV.th" tvg-logo="https://api.bananacake.org/images/png/hd-thairath.png" group-title="ทีวีออนไลน์",Thairath TV
-https://p0.cdn.vet/live/ch39/i/ch39i.m3u8?sid=b5yMjExMDhiYzdmYjQzMDIxOGVkYQMzhlYzdiNTA2NGE5Mzc3|User-Agent=Mozilla/5.0&Origin=https://www.thairath.co.th
+https://p0.cdn.vet/live/ch39/i/ch39i.m3u8?sid=b5yMTVlYzQ3NGQ1ODdjN2FkMGY3OQMWY5NDA2NGMxMDQ4MmUz|User-Agent=Mozilla/5.0&Origin=https://www.thairath.co.th
 #EXTINF:-1 tvg-id="mono29.th" tvg-logo="https://api.bananabatman.org/images/png/hd-mono.png" group-title="ทีวีออนไลน์",Mono29
 https://monomax-uiripn.cdn.byteark.com/plain/th/1080p/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTINF:-1 tvg-id="ch5.th" tvg-logo="https://i.imgur.com/wOIaqg7.png" group-title="ทีวีออนไลน์",ch5
 https://639bc5877c5fe.streamlock.net/tv5hdlive/tv5hdlive/chunklist_w1197956940.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTINF:-1 tvg-id="GMM25.th" tvg-logo="https://api.bananabatman.org/images/png/sd-gmmchannel.png" group-title="ทีวีออนไลน์",GMM25
-https://p0.cdn.vet/live/ch0/i/ch0i.m3u8?sid=b5yZTgyYzJiYWQ3N2FhOTBjMzRiNwOTBhYzNjNDFjNTEyNTk3|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
+https://p1.cdn.vet/live/ch0/i/ch0i.m3u8?sid=b5yN2U4MjEwYjc1MjQwYTA3NTU0MQMTQ5MDU0MzkzZDk3OWI5|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTINF:-1 tvg-id="one31.th" tvg-logo="https://api.bananacake.org/images/png/hd-gmmone.png" group-title="ทีวีออนไลน์",One31
 https://bcovlive-a.akamaihd.net/b6603a14ea59440a95e9235e14bc9332/ap-southeast-1/6415628290001/9c3d7fc7d10840a69e48b5939ae886e0/playlist_ssaiM.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTINF:-1 tvg-id="ch8.th" tvg-logo="https://api.bananabatman.org/images/png/hd-ch8.png" group-title="ทีวีออนไลน์",Ch8
