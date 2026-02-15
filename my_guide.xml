@@ -11,8 +11,14 @@
   <channel id="ThaiPBS"><display-name>Thai PBS</display-name></channel>
   <channel id="MCOT"><display-name>MCOT</display-name></channel>
 
-  <programme start="20260215160000 +0700" stop="20260215180000 +0700" channel="ch3.th"><title lang="th">รายการช่อง 3</title></programme>
-  <programme start="20260215160000 +0700" stop="20260215180000 +0700" channel="Thairath TV"><title lang="th">รายการไทยรัฐทีวี</title></programme>
-  <programme start="20260215160000 +0700" stop="20260215180000 +0700" channel="mono29.th"><title lang="th">รายการ Mono29</title></programme>
-  <programme start="20260215160000 +0700" stop="20260215180000 +0700" channel="workpiont.th"><title lang="th">รายการเวิร์คพอยท์</title></programme>
+  <programme start="20260215000000 +0700" stop="20260215235959 +0700" channel="ch3.th"><title lang="th">รายการช่อง 3 HD</title></programme>
+  <programme start="20260215000000 +0700" stop="20260215235959 +0700" channel="Thairath TV"><title lang="th">ไทยรัฐทีวี 32</title></programme>
+  <programme start="20260215000000 +0700" stop="20260215235959 +0700" channel="mono29.th"><title lang="th">Mono29 (หนังดีซีรีส์ดัง)</title></programme>
+  <programme start="20260215000000 +0700" stop="20260215235959 +0700" channel="ch5.th"><title lang="th">สถานีวิทยุโทรทัศน์กองทัพบก</title></programme>
+  <programme start="20260215000000 +0700" stop="20260215235959 +0700" channel="GMM25.th"><title lang="th">GMM25</title></programme>
+  <programme start="20260215000000 +0700" stop="20260215235959 +0700" channel="One31"><title lang="th">ช่อง One 31</title></programme>
+  <programme start="20260215000000 +0700" stop="20260215235959 +0700" channel="ch8.th"><title lang="th">ช่อง 8</title></programme>
+  <programme start="20260215000000 +0700" stop="20260215235959 +0700" channel="workpiont.th"><title lang="th">รายการเวิร์คพอยท์</title></programme>
+  <programme start="20260215000000 +0700" stop="20260215235959 +0700" channel="ThaiPBS"><title lang="th">Thai PBS HD</title></programme>
+  <programme start="20260215000000 +0700" stop="20260215235959 +0700" channel="MCOT"><title lang="th">MCOT HD (ช่อง 30)</title></programme>
 </tv>
