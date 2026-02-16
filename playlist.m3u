@@ -1,7 +1,7 @@
 
-#EXTM3U
-#EXTINF:-1 tvg-id="ch3.th" tvg-logo="https://api.bananabatman.org/images/png/hd-ch3.png" group-title="ทีวีออนไลน์",Ch3
-https://p0.cdn.vet/live/ch3/i/ch3i.m3u8?sid=b5yZGViMzcwYTc0OGJjM2NhNDRkNQOGM4ZmYzYzdkMjRiYzg2|User-Agent=Mozilla/5.0
+#EXTM3U x-tvg-url="https://raw.githubusercontent.com/nop-nop-123/my-iptv-thailand/main/my_guide.xml"
+#EXTINF:-1 tvg-id="ch3.th" tvg-logo="https://api.bananacake.org/images/png/hd-ch3.png" group-title="ทีวีออนไลน์",Ch3
+https://p0.cdn.vet/live/ch3/i/ch3i.m3u8...
 #EXTINF:-1 tvg-id="ThairathTV.th" tvg-logo="https://api.bananacake.org/images/png/hd-thairath.png" group-title="ทีวีออนไลน์",Thairath TV
 https://p0.cdn.vet/live/ch39/i/ch39i.m3u8?sid=b5yMGFiMTJlNWVmMjVmMjk2MzQzYwNDhmNDY2NzgzZGQzM2Yw|User-Agent=Mozilla/5.0
 #EXTINF:-1 tvg-id="Mono29" tvg-logo="https://api.bananabatman.org/images/png/hd-mono.png" group-title="ทีวีออนไลน์",Mono29
