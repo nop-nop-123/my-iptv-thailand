@@ -28,5 +28,17 @@
     "genre": "ทีวีออนไลน์",
     "url": "https://p1.cdn.vet/live/ch39/i/ch39i.m3u8?sid=b5yN2NiM2M0NDMwMjg3MDUwNzg5YQNDY5MDE2MTE3YzY4MTMw",
     "thumb": "https://api.bananacake.org/images/png/hd-thairath.png"
+},
+  {
+    "title": "Ch8",
+    "genre": "ทีวีออนไลน์",
+    "url": "https://prsmedia-mykojh.cdn.byteark.com/fleetstream/live/720p/index.m3u8",
+    "thumb": "https://api.bananacake.org/images/png/hd-ch8.png"
+},
+  {
+    "title": "Mono29",
+    "genre": "ทีวีออนไลน์",
+    "url": "https://p0.cdn.vet/live/ch38/i/ch38i.m3u8?sid=b5yNDc1NmQ4ZmEyNWFiYzUyODRiMAOTQyNWJhYmRlNjE2NDQ1",
+    "thumb": "https://api.bananacake.org/images/png/hd-mono.png"
 }
 ]
