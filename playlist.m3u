@@ -21,7 +21,3 @@ https://thaipbs-live.cdn.byteark.com/live/playlist.m3u8|User-Agent=Mozilla/5.0 (
 #EXTINF:-1 tvg-id="MCOT.th" tvg-logo="https://i.imgur.com/ejPxGmU.png" group-title="ทีวีออนไลน์",MCOT
 https://mcothd-streaming-edge-cdn.mcot.net/tencentmcot/smil:tencentmcot.smil/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 
-#EXTINF:-1 tvg-id="Eddington (2025) เอ็ดดิงตัน" tvg-logo="https://bbk100.xyz/media/cache/strip/202602/movie/0fdd3ef9fff95cf6415e3401c75a767d.webp" group-title="Ezmovie",Eddington (2025) เอ็ดดิงตัน
-https://vod1.stream25.com/Eddington-2025-TH.mp4.m3u8
-#EXTINF:-1 tvg-id="Eden (2025) สวรรค์คนบาป" tvg-logo="https://bbk100.xyz/media/cache/strip/202510/movie/71b8462e8a4af1e39cfcce48db672386.webp" group-title="Ezmovie",Eden (2025) สวรรค์คนบาป
-https://vod1.stream25.com/Eden-2025-TH.mp4.m3u8
