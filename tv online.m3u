@@ -63,7 +63,7 @@
   {
     "title": "Workpoint",
     "genre": "ทีวีออนไลน์",
-    "url": "https://global-media.sooplive.com/live/workpoint/master.m3u8",
+    "url": "https://global-media.sooplive.com/live/workpoint/master.m3u8|User-Agent=Mozilla/5.0",
     "thumb": "https://ball67.com/assets/channels-logo/workpoint.png"
 
 }
