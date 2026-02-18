@@ -21,7 +21,7 @@
   {
     "title": "Ch3",
     "genre": "ทีวีออนไลน์",
-    "url": "https://ch3-33-web.cdn.byteark.com/live/playlist.m3u8?x_ark_access_id=D78MkxZFEr5Zr9PE&x_ark_auth_type=ark-v2&x_ark_expires=1771379403&x_ark_max_resolution=720p&x_ark_path_prefix=/live/&x_ark_signature=HkmBOm9LWaP5MTlsGCq7SA",
+    "url": "https://ch3-33-web.cdn.byteark.com/live/playlist_720p/index.m3u8?x_ark_access_id=D78MkxZFEr5Zr9PE&x_ark_auth_type=ark-v2&x_ark_expires=1771458902&x_ark_max_resolution=720p&x_ark_path_prefix=/live/&x_ark_signature=mkpjJqfFjAZ9BCbytTZnHw",
     "thumb": "https://api.bananacake.org/images/png/hd-ch3.png"
 },
   {
