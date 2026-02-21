@@ -73,10 +73,10 @@
     "thumb": "https://ball67.com/assets/channels-logo/workpoint.png"
 },
   {
-    "title": "Nat Tv",
+    "title": "คาราบาว",
     "genre": "ทีวีออนไลน์",
-    "url": "https://livefta.malimarcdn.com/ftaedge00/nat.sdp/chunklist.m3u8",
-    "thumb": "https://www.nattv.com/images/top.jpg"
+    "url": "plugin://plugin.video.youtube/play/?video_id=9coVrWLaCiQ&list=RD9coVrWLaCiQ&start_radio=1",
+    "thumb": "https://yt3.ggpht.com/jM_8pQ4qkV7SUlvnfhLjdU4h3sINbbrjKTHHciEA7mYzyDuynO9s0ZJECU0OZj0YGjhbbu4Vwg=s88-c-k-c0x00ffffff-no-rj"
 
 
 }
