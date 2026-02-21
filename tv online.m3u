@@ -21,13 +21,13 @@
   {
     "title": "Ch3",
     "genre": "ทีวีออนไลน์",
-    "url": "https://ch3-33-web.cdn.byteark.com/live/playlist_720p/index.m3u8?x_ark_access_id=D78MkxZFEr5Zr9PE&x_ark_auth_type=ark-v2&x_ark_expires=1771458902&x_ark_max_resolution=720p&x_ark_path_prefix=/live/&x_ark_signature=mkpjJqfFjAZ9BCbytTZnHw",
+    "url": "https://p1.cdn.vet/live/ch3/i/ch3i.m3u8?sid=b5yNzUwZGQwMzFjZGFhZjY5ZGU2YQOTMzMzBmY2E4ZDEyMzU4",
     "thumb": "https://api.bananacake.org/images/png/hd-ch3.png"
 },
   {
     "title": "Thairath Tv",
     "genre": "ทีวีออนไลน์",
-    "url": "https://p0.cdn.vet/live/ch39/i/ch39i.m3u8?sid=b5yN2FmZDJhZDI4ZDlhOTkzNmZlOAODE5YWMxZTIzMjRjMDdi",
+    "url": "https://p0.cdn.vet/live/ch39/i/ch39i.m3u8?sid=b5yYTdjMjkxYTI1ZGE3YTViNzJjMgNDFkNDI2NGJhMWI3MmNj",
     "thumb": "https://api.bananacake.org/images/png/hd-thairath.png"
 },
   {
@@ -73,10 +73,10 @@
     "thumb": "https://ball67.com/assets/channels-logo/workpoint.png"
 },
   {
-    "title": "Ch3 thailand",
+    "title": "One31",
     "genre": "ทีวีออนไลน์",
-    "url": "plugin://plugin.video.youtube/play/?video_id=U9q7xQ1b3bI&list=OLAK5uy_k4ipXkz5NhjpbVG_TDhp3v-1jKOlLn8hA",
-    "thumb": "https://yt3.ggpht.com/erjkWwJG7C3gcFaS0Ad01HIMnOf6XsMC6gFRte897qIsZbMY1bqAltmzBbjgtMyMvYCy3ojBbw=s88-c-k-c0x00ffffff-no-rj"
+    "url": "https://bcovlive-a.akamaihd.net/b6603a14ea59440a95e9235e14bc9332/ap-southeast-1/6415628290001/9c3d7fc7d10840a69e48b5939ae886e0/playlist_ssaiM.m3u8",
+    "thumb": "https://api.bananacake.org/images/png/hd-gmmone.png"
 
 
 }
