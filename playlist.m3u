@@ -4,7 +4,7 @@
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 #EXTVLCOPT:http-referer=https://ch3plus.com
 #EXTVLCOPT:http-origin=https://ch3plus.com
-https://p1.cdn.vet/live/ch3/i/ch3i.m3u8
+https://ch3-33-web.cdn.byteark.com/live/playlist.m3u8?x_ark_access_id=D78MkxZFEr5Zr9PE&x_ark_auth_type=ark-v2&x_ark_expires=1771703702&x_ark_max_resolution=720p&x_ark_path_prefix=/live/&x_ark_signature=oSfoTcUeNgAzHrpPyV1-hA
 #EXTINF:-1 tvg-id="ThairathTV.th" tvg-logo="https://api.bananacake.org/images/png/hd-thairath.png" group-title="ทีวีออนไลน์",Thairath TV
 https://p0.cdn.vet/live/ch39/i/ch39i.m3u8?sid=b5yZTRjY2EyZDdjZTQ2MmEyN2U3OAOWIxMGM3YTQ5NjEyMzA2|User-Agent=Mozilla/5.0
 #EXTINF:-1 tvg-id="Mono29" tvg-logo="https://api.bananabatman.org/images/png/hd-mono.png" group-title="ทีวีออนไลน์",Mono29
