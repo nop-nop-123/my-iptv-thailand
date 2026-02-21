@@ -23,4 +23,5 @@ https://global-media.sooplive.com/live/workpoint/master.m3u8
 https://thaipbs-live.cdn.byteark.com/live/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTINF:-1 tvg-id="MCOT.th" tvg-logo="https://i.imgur.com/ejPxGmU.png" group-title="ทีวีออนไลน์",MCOT
 https://mcothd-streaming-edge-cdn.mcot.net/tencentmcot/smil:tencentmcot.smil/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
-
+#EXTINF:-1 tvg-id="True4U.th" tvg-name="True 4U" group-title="ทีวีออนไลน์" tvg-logo="https://i.imgur.com/O6Xre1O.png",True 4U
+https://iptv36.vercel.app/api/true.m3u8?channel=true4u
