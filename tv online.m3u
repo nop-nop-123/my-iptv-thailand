@@ -61,13 +61,13 @@
     "thumb": "https://www.tvjaa.com/storage/tv-channels/channel8thailand.png"
 },
   {
-    "title": "Ch7hd",
+    "title": "CH7 HD",
     "genre": "ทีวีออนไลน์",
     "url": "https://live-cdn.ch7.com/out/v1/eafeb02c55b64a15b278b1e66c7fc776/playlist.m3u8",
     "thumb": "https://ball67.com/assets/channels-logo/7hd.png"
 },
   {
-    "title": "Workpoint",
+    "title": "Workpoint TV",
     "genre": "ทีวีออนไลน์",
     "url": "https://global-media.sooplive.com/live/workpoint/master.m3u8",
     "thumb": "https://ball67.com/assets/channels-logo/workpoint.png"
@@ -77,6 +77,12 @@
     "genre": "ทีวีออนไลน์",
     "url": "https://bcovlive-a.akamaihd.net/b6603a14ea59440a95e9235e14bc9332/ap-southeast-1/6415628290001/9c3d7fc7d10840a69e48b5939ae886e0/playlist_ssaiM.m3u8",
     "thumb": "https://api.bananacake.org/images/png/hd-gmmone.png"
+},
+  {
+    "title": "True 4U",
+    "genre": "ทีวีออนไลน์",
+    "url": "https://bcovlive-a.akamaihd.net/b6603a14ea59440a95e9235e14bc9332/ap-southeast-1/6415628290001/9c3d7fc7d10840a69e48b5939ae886e0/playlist_ssaiM.m3u8",
+    "thumb": "https://api.bananacake.org/images/png/sd-24u.png"
 
 
 }
