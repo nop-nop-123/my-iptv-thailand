@@ -24,3 +24,5 @@ https://mcothd-streaming-edge-cdn.mcot.net/tencentmcot/smil:tencentmcot.smil/pla
 https://iptv36.vercel.app/api/true.m3u8?channel=true4u
 #EXTINF:-1 tvg-id="NBT2.th" tvg-name="NBT HD" group-title="ทีวีออนไลน์" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d4/NBT_2025.svg",NBT HD
 https://cdn-edge.iiptvcdn.com/live_event/smil:f180-054a-38d7-ce66-f7cf.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="https://ais-s.ais-vidnt.com/ais/play/origin/LIVE/channelicon/LOGO3HD.PNG" group-title="ช่องทีวีดิจิตอล",CH3HD
+http://tbtv.me:2095/play/live.php?mac=00:1A:79:E7:32:0C&stream=186421&extension=ts
