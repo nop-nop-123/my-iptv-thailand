@@ -1,24 +1,24 @@
 
 #EXTM3U 
-#EXTINF:-1 tvg-id="Ch3.th" tvg-logo="https://api.bananacake.org/images/png/hd-ch3.png" group-title="ทีวีออนไลน์",Ch3
+#EXTINF:-1 tvg-id="Ch3.th" tvg-logo="https://api.bananacake.org/images/png/hd-ch3.png" group-title="ทีวีออนไลน์",3 HD
 https://p0.cdn.vet/live/ch3/i/ch3i.m3u8?sid=b5yMzRmYzU1MWM0MWY0NjRmYTZkNgODNlYWM5MzJlMmFhNzlk|User-Agent=Mozilla/5.0
 #EXTINF:-1 tvg-id="ThairathTV.th" tvg-logo="https://api.bananacake.org/images/png/hd-thairath.png" group-title="ทีวีออนไลน์",Thairath TV
 https://p0.cdn.vet/live/ch39/i/ch39i.m3u8?sid=b5yZTRjY2EyZDdjZTQ2MmEyN2U3OAOWIxMGM3YTQ5NjEyMzA2|User-Agent=Mozilla/5.0
-#EXTINF:-1 tvg-id="Mono29" tvg-logo="https://api.bananabatman.org/images/png/hd-mono.png" group-title="ทีวีออนไลน์",Mono29
+#EXTINF:-1 tvg-id="Mono29" tvg-logo="https://api.bananabatman.org/images/png/hd-mono.png" group-title="ทีวีออนไลน์",MONO29
 https://monomax-uiripn.cdn.byteark.com/plain/th/1080p/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
-#EXTINF:-1 tvg-id="ch5.th" tvg-logo="https://i.imgur.com/wOIaqg7.png" group-title="ทีวีออนไลน์",Ch5
+#EXTINF:-1 tvg-id="ch5.th" tvg-logo="https://i.imgur.com/wOIaqg7.png" group-title="ทีวีออนไลน์",TV 5 HD
 https://639bc5877c5fe.streamlock.net/tv5hdlive/tv5hdlive/chunklist_w1197956940.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTINF:-1 tvg-id="GMM25.th" tvg-logo="https://api.bananabatman.org/images/png/sd-gmmchannel.png" group-title="ทีวีออนไลน์",GMM25
 https://bcovlive-a.akamaihd.net/57d4bf695e80436d9335f4f50adbe438/ap-southeast-1/6415628290001/bdfd964c7fa447a8811f2a3c4ed3ef1c/playlist_ssaiM.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
-#EXTINF:-1 tvg-id="one31.th" tvg-logo="https://api.bananacake.org/images/png/hd-gmmone.png" group-title="ทีวีออนไลน์",One31
+#EXTINF:-1 tvg-id="one31.th" tvg-logo="https://api.bananacake.org/images/png/hd-gmmone.png" group-title="ทีวีออนไลน์",ONE HD
 https://bcovlive-a.akamaihd.net/b6603a14ea59440a95e9235e14bc9332/ap-southeast-1/6415628290001/9c3d7fc7d10840a69e48b5939ae886e0/playlist_ssaiM.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
-#EXTINF:-1 tvg-id="ch8.th" tvg-logo="https://api.bananabatman.org/images/png/hd-ch8.png" group-title="ทีวีออนไลน์",Ch8
+#EXTINF:-1 tvg-id="ch8.th" tvg-logo="https://api.bananabatman.org/images/png/hd-ch8.png" group-title="ทีวีออนไลน์",CH8
 https://prsmedia-mykojh.cdn.byteark.com/fleetstream/live/720p/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
-#EXTINF:-1 tvg-id="Workpoint.th" tvg-logo="https://api.bananacake.org/images/png/hd-ch3.png" group-title="ทีวีออนไลน์",Workpoint
+#EXTINF:-1 tvg-id="Workpoint.th" tvg-logo="https://api.bananacake.org/images/png/hd-ch3.png" group-title="ทีวีออนไลน์",Workpoint TV
 https://cdn-live-1.workpoint.co.th/live/workpoint/playlist.m3u8|User-Agent=Mozilla/5.0
 #EXTINF:-1 tvg-id="ThaiPBS.th" tvg-logo="https://api.bananacake.org/images/png/hd-tpbs.png" group-title="ทีวีออนไลน์",Thai PBS
 https://thaipbs-live.cdn.byteark.com/live/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
-#EXTINF:-1 tvg-id="MCOT.th" tvg-logo="https://i.imgur.com/ejPxGmU.png" group-title="ทีวีออนไลน์",MCOT
+#EXTINF:-1 tvg-id="MCOT.th" tvg-logo="https://i.imgur.com/ejPxGmU.png" group-title="ทีวีออนไลน์",9MCOT HD
 https://mcothd-streaming-edge-cdn.mcot.net/tencentmcot/smil:tencentmcot.smil/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTINF:-1 tvg-id="True4U.th" tvg-name="True 4U" group-title="ทีวีออนไลน์" tvg-logo="https://i.imgur.com/O6Xre1O.png",True 4U
 https://iptv36.vercel.app/api/true.m3u8?channel=true4u
