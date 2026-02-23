@@ -1,61 +1,61 @@
 
 [
   {
-    "title": "Ch5",
+    "title": "TV 5 HD",
     "genre": "ทีวีออนไลน์",
     "url": "https://639bc5877c5fe.streamlock.net/tv5hdlive/tv5hdlive/playlist.m3u8",
     "thumb": "https://api.bananacake.org/images/png/hd-ch5.png"
   },
   {
-    "title": "Mcot",
+    "title": "9MCOT HD",
     "genre": "ทีวีออนไลน์",
     "url": "https://mcothd-streaming-edge-cdn.mcot.net/tencentmcot/smil:tencentmcot.smil/playlist.m3u8",
     "thumb": "https://ball67.com/assets/channels-logo/mcot.png"
   },
   {
-    "title": "Amarin tv",
+    "title": "Amarin TV",
     "genre": "ทีวีออนไลน์",
     "url": "https://amarin-ks7jcc.cdn.byteark.com/live/playlist.m3u8?x_ark_access_id=fleet-868&x_ark_auth_type=ark-v2&x_ark_expires=1771389359&x_ark_path_prefix=%2Flive%2F&x_ark_signature=YhRPaPaKS0ev0VPLJ4Kz1A",
     "thumb": "https://api.bananacake.org/images/png/hd-amarin.png"
 },
   {
-    "title": "Ch3",
+    "title": "3 HD",
     "genre": "ทีวีออนไลน์",
     "url": "https://p1.cdn.vet/live/ch3/i/ch3i.m3u8?sid=b5yNzUwZGQwMzFjZGFhZjY5ZGU2YQOTMzMzBmY2E4ZDEyMzU4",
     "thumb": "https://api.bananacake.org/images/png/hd-ch3.png"
 },
   {
-    "title": "Thairath Tv",
+    "title": "Thairath TV",
     "genre": "ทีวีออนไลน์",
     "url": "https://p0.cdn.vet/live/ch39/i/ch39i.m3u8?sid=b5yYTdjMjkxYTI1ZGE3YTViNzJjMgNDFkNDI2NGJhMWI3MmNj",
     "thumb": "https://api.bananacake.org/images/png/hd-thairath.png"
 },
   {
-    "title": "Ch8",
+    "title": "CH8",
     "genre": "ทีวีออนไลน์",
     "url": "https://prsmedia-mykojh.cdn.byteark.com/fleetstream/live/720p/index.m3u8",
     "thumb": "https://api.bananacake.org/images/png/hd-ch8.png"
 },
   {
-    "title": "Mono29",
+    "title": "MONO29",
     "genre": "ทีวีออนไลน์",
     "url": "https://monomax-uiripn.cdn.byteark.com/plain/th/1080p/index.m3u8",
     "thumb": "https://api.bananacake.org/images/png/hd-mono.png"
 },
   {
-    "title": "Mono29(sound track)",
+    "title": "MONO29(sound track)",
     "genre": "ทีวีออนไลน์",
     "url": "https://monomax-uiripn.cdn.byteark.com/plain/st/playlist.m3u8",
     "thumb": "https://api.bananacake.org/images/png/hd-mono.png"
 },
   {
-    "title": "Gmm25",
+    "title": "GMM25",
     "genre": "ทีวีออนไลน์",
     "url": "https://load1.v2h-cdn.com/digitaltv/gmm25/playlist.m3u8",
     "thumb": "https://api.bananacake.org/images/png/sd-gmmchannel.png"
 },
   {
-    "title": "Chanal8",
+    "title": "CHANAL8",
     "genre": "ทีวีออนไลน์",
     "url": "https://cdn-th-vip.login.in.th/ch8/ch8/playlist.m3u8",
     "thumb": "https://www.tvjaa.com/storage/tv-channels/channel8thailand.png"
@@ -73,7 +73,7 @@
     "thumb": "https://ball67.com/assets/channels-logo/workpoint.png"
 },
   {
-    "title": "One31",
+    "title": "ONE HD",
     "genre": "ทีวีออนไลน์",
     "url": "https://bcovlive-a.akamaihd.net/b6603a14ea59440a95e9235e14bc9332/ap-southeast-1/6415628290001/9c3d7fc7d10840a69e48b5939ae886e0/playlist_ssaiM.m3u8",
     "thumb": "https://api.bananacake.org/images/png/hd-gmmone.png"
