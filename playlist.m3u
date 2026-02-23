@@ -1,9 +1,9 @@
 
 #EXTM3U 
 #EXTINF:-1 tvg-id="Ch3.th" tvg-logo="https://api.bananacake.org/images/png/hd-ch3.png" group-title="ทีวีออนไลน์",3 HD
-https://p0.cdn.vet/live/ch3/i/ch3i.m3u8?sid=b5yMzRmYzU1MWM0MWY0NjRmYTZkNgODNlYWM5MzJlMmFhNzlk|User-Agent=Mozilla/5.0
+ https://ch3-33-web.cdn.byteark.com/live/playlist_720p/index.m3u8|User-Agent=Mozilla/5.0
 #EXTINF:-1 tvg-id="ThairathTV.th" tvg-logo="https://api.bananacake.org/images/png/hd-thairath.png" group-title="ทีวีออนไลน์",Thairath TV
-https://p0.cdn.vet/live/ch39/i/ch39i.m3u8?sid=b5yZTRjY2EyZDdjZTQ2MmEyN2U3OAOWIxMGM3YTQ5NjEyMzA2|User-Agent=Mozilla/5.0
+ https://ww.dooballfree.vip/live/thairathtv/playlist.m3u8|User-Agent=Mozilla/5.0
 #EXTINF:-1 tvg-id="Mono29" tvg-logo="https://api.bananabatman.org/images/png/hd-mono.png" group-title="ทีวีออนไลน์",MONO29
 https://monomax-uiripn.cdn.byteark.com/plain/th/1080p/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTINF:-1 tvg-id="ch5.th" tvg-logo="https://i.imgur.com/wOIaqg7.png" group-title="ทีวีออนไลน์",TV 5 HD
