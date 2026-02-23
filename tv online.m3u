@@ -87,8 +87,15 @@
   {
     "title": "Amarin TV",
     "genre": "ทีวีออนไลน์",
-    "url": "https://iptv36.vercel.app/api/true.m3u8?channel=Amarin tv",
+    "url": "https://ww.dooballfree.vip/live/amarintv/playlist.m3u8",
     "thumb": "https://api.bananacake.org/images/png/hd-amarin.png"
+},
+  {
+    "title": "Thai PBS",
+    "genre": "ทีวีออนไลน์",
+    "url": "https://thaipbs-ophctt.cdn.byteark.com/live/playlist.m3u8",
+    "thumb": "https://api.bananacake.org/images/png/hd-tpbs.png"
+
 
 
 
