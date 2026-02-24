@@ -1,7 +1,7 @@
 
 #EXTM3U 
 #EXTINF:-1 tvg-id="Ch3.th" tvg-logo="https://api.bananacake.org/images/png/hd-ch3.png" group-title="ทีวีออนไลน์",3 HD
-https://ch3-33-web.cdn.byteark.com/live/playlist.m3u8?x_ark_access_id=D78MkxZFEr5Zr9PE&x_ark_auth_type=ark-v2&x_ark_expires=1771980003&x_ark_max_resolution=720p&x_ark_path_prefix=/live/&x_ark_signature=Tlg-ES6uXJN6t9iqz-PK0g
+https://p0.cdn.vet/live/ch3/i/ch3i.m3u8?sid=b5yMmFlYWNjNDU0ZWIzOTNmZDdhNAMTE5MDhhOGU1N2E3NzVi
 #EXTINF:-1 tvg-id="ThairathTV.th" tvg-logo="https://api.bananacake.org/images/png/hd-thairath.png" group-title="ทีวีออนไลน์",Thairath TV
  https://ww.dooballfree.vip/live/thairathtv/playlist.m3u8
 #EXTINF:-1 tvg-id="Mono29" tvg-logo="https://api.bananabatman.org/images/png/hd-mono.png" group-title="ทีวีออนไลน์",MONO29
