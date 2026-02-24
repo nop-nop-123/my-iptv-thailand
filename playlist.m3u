@@ -14,8 +14,10 @@ https://bcovlive-a.akamaihd.net/57d4bf695e80436d9335f4f50adbe438/ap-southeast-1/
 https://bcovlive-a.akamaihd.net/b6603a14ea59440a95e9235e14bc9332/ap-southeast-1/6415628290001/9c3d7fc7d10840a69e48b5939ae886e0/playlist_ssaiM.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTINF:-1 tvg-id="ch8.th" tvg-logo="https://api.bananabatman.org/images/png/hd-ch8.png" group-title="ทีวีออนไลน์",CH8
 https://prsmedia-mykojh.cdn.byteark.com/fleetstream/live/720p/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
-#EXTINF:-1 tvg-id="Workpoint.th" tvg-logo="https://api.bananacake.org/images/png/hd-workpoint.png" group-title="ทีวีออนไลน์",Workpoint TV
-https://global-media.sooplive.com/live/workpoint/master.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://www.sooplive.com/&Origin=https://www.sooplive.com
+#EXTINF:-1 tvg-id="workpoint" tvg-name="Workpoint"tvg-logo="https://api.bananabatman.org/images/png/Workpoint.png" group-title="TV",Workpoint HD
+#EXTVLCOPT:http-referrer=https://www.sooplive.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 14_4_2 like Mac OS X)
+http://global-media.sooplive.com/live/workpoint/master.m3u8
 #EXTINF:-1 tvg-id="ThaiPBS.th" tvg-logo="https://api.bananacake.org/images/png/hd-tpbs.png" group-title="ทีวีออนไลน์",Thai PBS
 https://thaipbs-live.cdn.byteark.com/live/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTINF:-1 tvg-id="MCOT.th" tvg-logo="https://i.imgur.com/ejPxGmU.png" group-title="ทีวีออนไลน์",9MCOT HD
