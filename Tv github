@@ -1,0 +1,45 @@
+#EXTM3U
+
+# CH 2 - NBT HD
+#EXTINF:-1 tvg-id="NBT.th" tvg-chno="2" tvg-logo="https://upload.wikimedia.org/wikipedia/th/thumb/7/7e/NBT_2HD.png/320px-NBT_2HD.png" group-title="FreeTV",NBT HD
+https://nbt-live.cdn.byteark.com/live/playlist.m3u8
+
+# CH 3 - Thai PBS
+#EXTINF:-1 tvg-id="ThaiPBS.th" tvg-chno="3" tvg-logo="https://upload.wikimedia.org/wikipedia/th/thumb/e/e5/ThaiPBS_Logo.png/320px-ThaiPBS_Logo.png" group-title="FreeTV",Thai PBS HD
+https://thaipbs-live.cdn.byteark.com/live/playlist.m3u8
+
+# CH 4 - ALTV
+#EXTINF:-1 tvg-id="ALTV.th" tvg-chno="4" tvg-logo="https://upload.wikimedia.org/wikipedia/th/thumb/f/f0/ALTV_Logo.png/320px-ALTV_Logo.png" group-title="FreeTV",ALTV
+https://altv-live.cdn.byteark.com/live/playlist.m3u8
+
+# CH 16 - TNN16
+#EXTINF:-1 tvg-id="TNN16.th" tvg-chno="16" tvg-logo="https://upload.wikimedia.org/wikipedia/th/thumb/3/3d/TNN16_Logo.png/320px-TNN16_Logo.png" group-title="FreeTV",TNN16
+https://tnn16-live.cdn.byteark.com/live/playlist.m3u8
+
+# CH 23 - Workpoint
+#EXTINF:-1 tvg-id="Workpoint.th" tvg-chno="23" tvg-logo="https://upload.wikimedia.org/wikipedia/th/thumb/8/87/WorkpointTV.png/320px-WorkpointTV.png" group-title="FreeTV",Workpoint TV
+https://workpoint-live.cdn.byteark.com/live/playlist.m3u8
+
+# CH 25 - GMM25
+#EXTINF:-1 tvg-id="GMM25.th" tvg-chno="25" tvg-logo="https://upload.wikimedia.org/wikipedia/th/thumb/3/30/GMM_25_Logo.png/320px-GMM_25_Logo.png" group-title="FreeTV",GMM25
+https://gmm25-live.cdn.byteark.com/live/playlist.m3u8
+
+# CH 31 - ONE31
+#EXTINF:-1 tvg-id="ONE31.th" tvg-chno="31" tvg-logo="https://upload.wikimedia.org/wikipedia/th/thumb/7/7f/ONE31_Logo.png/320px-ONE31_Logo.png" group-title="FreeTV",ONE31
+https://one31-live.cdn.byteark.com/live/playlist.m3u8
+
+# CH 32 - Thairath
+#EXTINF:-1 tvg-id="Thairath.th" tvg-chno="32" tvg-logo="https://upload.wikimedia.org/wikipedia/th/thumb/8/8e/Thairath_TV_Logo.png/320px-Thairath_TV_Logo.png" group-title="FreeTV",Thairath TV
+https://thairath-live.cdn.byteark.com/live/playlist.m3u8
+
+# CH 34 - Amarin
+#EXTINF:-1 tvg-id="Amarin.th" tvg-chno="34" tvg-logo="https://upload.wikimedia.org/wikipedia/th/thumb/6/6a/AmarinTV34.png/320px-AmarinTV34.png" group-title="FreeTV",Amarin TV
+https://amarin-live.cdn.byteark.com/live/playlist.m3u8
+
+# CH 36 - PPTV
+#EXTINF:-1 tvg-id="PPTV.th" tvg-chno="36" tvg-logo="https://upload.wikimedia.org/wikipedia/th/thumb/e/e2/PPTV_HD_36.png/320px-PPTV_HD_36.png" group-title="FreeTV",PPTV HD
+https://pptv-live.cdn.byteark.com/live/playlist.m3u8
+
+# CH 22 - Nation
+#EXTINF:-1 tvg-id="Nation.th" tvg-chno="22" tvg-logo="https://upload.wikimedia.org/wikipedia/th/thumb/1/19/Nation_TV_Logo.png/320px-Nation_TV_Logo.png" group-title="FreeTV",Nation TV
+https://nation-live.cdn.byteark.com/live/playlist.m3u8
