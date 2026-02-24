@@ -14,7 +14,7 @@ https://639bc5877c5fe.streamlock.net/tv5hdlive/tv5hdlive/chunklist_w1197956940.m
 https://bcovlive-a.akamaihd.net/57d4bf695e80436d9335f4f50adbe438/ap-southeast-1/6415628290001/7e85dc4a59904e45b4fdffebd62e1d82/playlist_ssaiM.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTINF:-1 tvg-id="one31.th" tvg-logo="https://api.bananacake.org/images/png/hd-gmmone.png" group-title="ทีวีออนไลน์",ONE HD
 https://bcovlive-a.akamaihd.net/b6603a14ea59440a95e9235e14bc9332/ap-southeast-1/6415628290001/9c3d7fc7d10840a69e48b5939ae886e0/playlist_ssaiM.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
-#EXTINF:-1 tvg-id="ch8.th" tvg-logo="https://api.bananabatman.org/images/png/hd-ch8.png" group-title="ทีวีออนไลน์",CH8
+#EXTINF:-1 tvg-id="ch8.th" tvg-logo="http://totiptv.com/Product/Channel/images/ch8_65x66.png" group-title="ทีวีออนไลน์",CH8
 https://prsmedia-mykojh.cdn.byteark.com/fleetstream/live/720p/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTINF:-1 tvg-id="PPTV" tvg-name="Workpoint"tvg-logo="https://api.bananacake.org/images/png/hd-pptv.png" group-title="ทีวีออนไลน์",PPTV
 https://ww.dooballfree.vip/live/pptv/playlist.m3u8
