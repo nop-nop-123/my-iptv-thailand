@@ -14,13 +14,8 @@ https://bcovlive-a.akamaihd.net/57d4bf695e80436d9335f4f50adbe438/ap-southeast-1/
 https://bcovlive-a.akamaihd.net/b6603a14ea59440a95e9235e14bc9332/ap-southeast-1/6415628290001/9c3d7fc7d10840a69e48b5939ae886e0/playlist_ssaiM.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTINF:-1 tvg-id="ch8.th" tvg-logo="https://api.bananabatman.org/images/png/hd-ch8.png" group-title="ทีวีออนไลน์",CH8
 https://prsmedia-mykojh.cdn.byteark.com/fleetstream/live/720p/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
-#EXTINF:-1 tvg-id="workpoint" tvg-name="Workpoint"tvg-logo="https://api.bananacake.org/images/png/hd-workpoint.png" group-title="ทีวีออนไลน์",Workpoint HD
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (iPhone; CPU iPhone OS 14_4_2 like Mac OS X)&Referer=https://www.sooplive.com/
-#KODIPROP:inputstream.adaptive.max_bandwidth=20000000
-#KODIPROP:inputstream.adaptive.initial_bandwidth=10000000
-http://global-media.sooplive.com/live/workpoint/master.m3u8
+#EXTINF:-1 tvg-id="PPTV" tvg-name="Workpoint"tvg-logo="https://api.bananacake.org/images/png/hd-pptv.png" group-title="ทีวีออนไลน์",PPTV
+https://ww.dooballfree.vip/live/pptv/playlist.m3u8
 #EXTINF:-1 tvg-id="ThaiPBS.th" tvg-logo="https://api.bananacake.org/images/png/hd-tpbs.png" group-title="ทีวีออนไลน์",Thai PBS
 https://thaipbs-live.cdn.byteark.com/live/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTINF:-1 tvg-id="MCOT.th" tvg-logo="https://i.imgur.com/ejPxGmU.png" group-title="ทีวีออนไลน์",9MCOT HD
@@ -31,7 +26,7 @@ https://iptv36.vercel.app/api/true.m3u8?channel=true4u
 https://cdn-edge.iiptvcdn.com/live_event/smil:f180-054a-38d7-ce66-f7cf.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="ThaiChaiyo.th" tvg-logo="https://i.imgur.com/uOfb3y1.png" group-title="ทีวีออนไลน์",Thai Chaiyo
 https://live-iptv.thaichaiyo.tv/tcy/live-720P.m3u8
-#EXTINF:-1 tvg-id="workpoint" tvg-name="Workpoint" group-title="ทีวีออนไลน์",Workpoint HD
+#EXTINF:-1 tvg-id="workpoint" tvg-name="Workpoint"tvg-logo="https://api.bananabatman.org/images/png/hd-ch8.png"  group-title="ทีวีออนไลน์",Workpoint HD
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (iPhone; CPU iPhone OS 14_4_2 like Mac OS X)&Referer=https://www.sooplive.com/
