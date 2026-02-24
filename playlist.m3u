@@ -15,8 +15,11 @@ https://bcovlive-a.akamaihd.net/b6603a14ea59440a95e9235e14bc9332/ap-southeast-1/
 #EXTINF:-1 tvg-id="ch8.th" tvg-logo="https://api.bananabatman.org/images/png/hd-ch8.png" group-title="ทีวีออนไลน์",CH8
 https://prsmedia-mykojh.cdn.byteark.com/fleetstream/live/720p/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTINF:-1 tvg-id="workpoint" tvg-name="Workpoint"tvg-logo="https://api.bananacake.org/images/png/hd-workpoint.png" group-title="ทีวีออนไลน์",Workpoint HD
-#EXTVLCOPT:http-referrer=https://www.sooplive.com/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 14_4_2 like Mac OS X)
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (iPhone; CPU iPhone OS 14_4_2 like Mac OS X)&Referer=https://www.sooplive.com/
+#KODIPROP:inputstream.adaptive.max_bandwidth=20000000
+#KODIPROP:inputstream.adaptive.initial_bandwidth=10000000
 http://global-media.sooplive.com/live/workpoint/master.m3u8
 #EXTINF:-1 tvg-id="ThaiPBS.th" tvg-logo="https://api.bananacake.org/images/png/hd-tpbs.png" group-title="ทีวีออนไลน์",Thai PBS
 https://thaipbs-live.cdn.byteark.com/live/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
@@ -32,11 +35,4 @@ https://live-iptv.thaichaiyo.tv/tcy/live-720P.m3u8
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (iPhone; CPU iPhone OS 14_4_2 like Mac OS X)&Referer=https://www.sooplive.com/
-http://global-media.sooplive.com/live/workpoint/master.m3u8
-#EXTINF:-1 tvg-id="workpoint" tvg-name="Workpoint" group-title="ทีวีออนไลน์",Workpoint HD
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (iPhone; CPU iPhone OS 14_4_2 like Mac OS X)&Referer=https://www.sooplive.com/
-#KODIPROP:inputstream.adaptive.max_bandwidth=20000000
-#KODIPROP:inputstream.adaptive.initial_bandwidth=10000000
 http://global-media.sooplive.com/live/workpoint/master.m3u8
