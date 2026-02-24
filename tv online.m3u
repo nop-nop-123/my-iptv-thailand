@@ -1,4 +1,3 @@
-
 [
   {
     "title": "TV 5 HD",
@@ -17,84 +16,77 @@
     "genre": "ทีวีออนไลน์",
     "url": "https://amarin-ks7jcc.cdn.byteark.com/live/playlist.m3u8?x_ark_access_id=fleet-868&x_ark_auth_type=ark-v2&x_ark_expires=1771389359&x_ark_path_prefix=%2Flive%2F&x_ark_signature=YhRPaPaKS0ev0VPLJ4Kz1A",
     "thumb": "https://api.bananacake.org/images/png/hd-amarin.png"
-},
+  },
   {
     "title": "3 HD",
     "genre": "ทีวีออนไลน์",
-    "url": " https://ww.dooballfree.vip/live/ch3hd/playlist.m3u8",
+    "url": "https://ww.dooballfree.vip/live/ch3hd/playlist.m3u8",
     "thumb": "https://api.bananacake.org/images/png/hd-ch3.png"
-},
+  },
   {
     "title": "Thairath TV",
     "genre": "ทีวีออนไลน์",
-    "url": " https://ww.dooballfree.vip/live/thairathtv/playlist.m3u8",
+    "url": "https://ww.dooballfree.vip/live/thairathtv/playlist.m3u8",
     "thumb": "https://api.bananacake.org/images/png/hd-thairath.png"
-},
+  },
   {
     "title": "CH8",
     "genre": "ทีวีออนไลน์",
     "url": "https://prsmedia-mykojh.cdn.byteark.com/fleetstream/live/720p/index.m3u8",
     "thumb": "https://api.bananacake.org/images/png/hd-ch8.png"
-},
+  },
   {
     "title": "MONO29",
     "genre": "ทีวีออนไลน์",
     "url": "https://monomax-uiripn.cdn.byteark.com/plain/th/1080p/index.m3u8",
     "thumb": "https://api.bananacake.org/images/png/hd-mono.png"
-},
+  },
   {
-    "title": "MONO29(sound track)",
+    "title": "MONO29 (Soundtrack)",
     "genre": "ทีวีออนไลน์",
     "url": "https://monomax-uiripn.cdn.byteark.com/plain/st/playlist.m3u8",
     "thumb": "https://api.bananacake.org/images/png/hd-mono.png"
-},
+  },
   {
     "title": "GMM25",
     "genre": "ทีวีออนไลน์",
     "url": "https://load1.v2h-cdn.com/digitaltv/gmm25/playlist.m3u8",
     "thumb": "https://api.bananacake.org/images/png/sd-gmmchannel.png"
-},
+  },
   {
-    "title": "CHANAL8",
+    "title": "CHANNEL8",
     "genre": "ทีวีออนไลน์",
     "url": "https://cdn-th-vip.login.in.th/ch8/ch8/playlist.m3u8",
     "thumb": "https://www.tvjaa.com/storage/tv-channels/channel8thailand.png"
-},
+  },
   {
     "title": "CH7 HD",
     "genre": "ทีวีออนไลน์",
     "url": "https://live-cdn.ch7.com/out/v1/eafeb02c55b64a15b278b1e66c7fc776/playlist.m3u8",
     "thumb": "https://ball67.com/assets/channels-logo/7hd.png"
-},
+  },
   {
     "title": "Workpoint TV",
     "genre": "ทีวีออนไลน์",
     "url": "https://global-media.sooplive.com/live/workpoint/master.m3u8",
     "thumb": "https://ball67.com/assets/channels-logo/workpoint.png"
-},
+  },
   {
     "title": "ONE HD",
     "genre": "ทีวีออนไลน์",
-    "url": "https://bcovlive-a.akamaihd.net/b6603a14ea59440a95e9235e14bc9332/
-     ap-southeast-1/6415628290001/9c3d7fc7d10840a69e48b5939ae886e0/playlist_ssaiM.m3u8",
+    "url": "https://bcovlive-a.akamaihd.net/b6603a14ea59440a95e9235e14bc9332/ap-southeast-1/6415628290001/9c3d7fc7d10840a69e48b5939ae886e0/playlist_ssaiM.m3u8",
     "thumb": "https://ball67.com/assets/channels-logo/one31.png"
- },
+  },
   {
     "title": "True 4U",
     "genre": "ทีวีออนไลน์",
     "url": "https://iptv36.vercel.app/api/true.m3u8?channel=true4u",
     "thumb": "https://api.bananacake.org/images/png/sd-24u.png"
-},
-  {
-    "title": "Amarin TV",
-    "genre": "ทีวีออนไลน์",
-    "url": "https://ww.dooballfree.vip/live/amarintv/playlist.m3u8",
-    "thumb": "https://api.bananacake.org/images/png/hd-amarin.png"
-},
+  },
   {
     "title": "Thai PBS",
     "genre": "ทีวีออนไลน์",
     "url": "https://thaipbs-ophctt.cdn.byteark.com/live/playlist.m3u8",
     "thumb": "https://api.bananacake.org/images/png/hd-tpbs.png"
-}
+  }
 ]
