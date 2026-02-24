@@ -22,7 +22,7 @@ https://thaipbs-live.cdn.byteark.com/live/playlist.m3u8|User-Agent=Mozilla/5.0 (
 https://mcothd-streaming-edge-cdn.mcot.net/tencentmcot/smil:tencentmcot.smil/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTINF:-1 tvg-id="True4U.th" tvg-name="True 4U" group-title="ทีวีออนไลน์" tvg-logo="https://i.imgur.com/O6Xre1O.png",True 4U
 https://iptv36.vercel.app/api/true.m3u8?channel=true4u
-#EXTINF:-1 tvg-id="NBT2.th" tvg-name="NBT HD" group-title="ทีวีออนไลน์" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d4/NBT_2025.svg",NBT HD
+#EXTINF:-1 tvg-id="NBT2.th" tvg-name="NBT HD" group-title="ทีวีออนไลน์" tvg-logo="https://ball67.com/assets/channels-logo/nbt.png",NBT HD
 https://cdn-edge.iiptvcdn.com/live_event/smil:f180-054a-38d7-ce66-f7cf.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="ThaiChaiyo.th" tvg-logo="https://i.imgur.com/uOfb3y1.png" group-title="ทีวีออนไลน์",Thai Chaiyo
 https://live-iptv.thaichaiyo.tv/tcy/live-720P.m3u8
