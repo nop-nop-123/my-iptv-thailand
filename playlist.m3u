@@ -33,3 +33,10 @@ https://live-iptv.thaichaiyo.tv/tcy/live-720P.m3u8
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (iPhone; CPU iPhone OS 14_4_2 like Mac OS X)&Referer=https://www.sooplive.com/
 http://global-media.sooplive.com/live/workpoint/master.m3u8
+#EXTINF:-1 tvg-id="workpoint" tvg-name="Workpoint" group-title="ทีวีออนไลน์",Workpoint HD
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (iPhone; CPU iPhone OS 14_4_2 like Mac OS X)&Referer=https://www.sooplive.com/
+#KODIPROP:inputstream.adaptive.max_bandwidth=20000000
+#KODIPROP:inputstream.adaptive.initial_bandwidth=10000000
+http://global-media.sooplive.com/live/workpoint/master.m3u8
