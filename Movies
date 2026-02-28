@@ -16,31 +16,8 @@
     "genre": "Action",
     "url": "https://vod1.stream25.com/The-Long-Walk-2025-SUB.mp4.m3u8",
     "thumb": "https://bbk100.xyz/media/cache/strip/202512/movie/1d5f5043d9a2e88e5ac1c2ca81b45f70.webp"
-},
-  {
-    "title": "จอห์นนี่เดินเยี่ยงไก่ EP.1",
-    "genre": "VIPA",
-    "url": "https://manifest.prod.boltdns.net/manifest/v2/hls/v7/aes128/avc1_mp4a/6075037809001/ad92650f-2f96-482a-a072-70cc539a93e9/10s/master.m3u8?fastly_token=NjlhMzdjZDFfNmQwMTdmZmRjMmM2ZDk2Y2VlOWExOWU2MzBhMjk1Y2E2MzI5ZjZlNDUxMTRhMTM4N2Y1MTA3OTNlN2FiZjg3Zg%3D%3D",
-    "thumb": "
-   },
-  {
-    "title": "จอห์นนี่เดินเยี่ยงไก่ EP.2",
-    "genre": "VIPA",
-    "url": "https://manifest.prod.boltdns.net/manifest/v2/hls/v7/aes128/avc1_mp4a/6075037809001/de75efd2-583f-4b81-b148-11c1d9cff152/10s/master.m3u8?fastly_token=NjlhMzdjZDJfOWY2OGRkNDFkYzBiNDc4NzVlOTBkMDY2ZGI1ZTM3MThkOWNjNTg3N2M3MTg1YTg2NTQ1MjE1NTI3NmYzYjMzNw%3D%3D",
-    "thumb": ""
-   },
-  {
-    "title": "จอห์นนี่เดินเยี่ยงไก่ EP.3",
-    "genre": "VIPA",
-    "url": "https://manifest.prod.boltdns.net/manifest/v2/hls/v7/aes128/avc1_mp4a/6075037809001/2d24bc0f-9175-46a8-ae6b-3e1c82baac9e/10s/master.m3u8?fastly_token=NjlhMzdjZDFfMGI5YjE5ODQyNGZjZGRkNTIwZjI1ODUyNzQ1Y2NhNDJiMGViNmY1NjAwYWFjNjNmNTJhZTk1N2RhYjJkZDA5Mg%3D%3D",
-    "thumb": ""
- },
-  {
-    "title": "จอห์นนี่เดินเยี่ยงไก่ EP.4",
-    "genre": "VIPA",
-    "url": "https://manifest.prod.boltdns.net/manifest/v2/hls/v7/aes128/avc1_mp4a/6075037809001/2d24bc0f-9175-46a8-ae6b-3e1c82baac9e/10s/master.m3u8?fastly_token=NjlhMzdjZDFfMGI5YjE5ODQyNGZjZGRkNTIwZjI1ODUyNzQ1Y2NhNDJiMGViNmY1NjAwYWFjNjNmNTJhZTk1N2RhYjJkZDA5Mg%3D%3D",
-    "thumb": ""
-},
+
+}, 
   {
     "title": "Wildcat (2025) ไวลด์แคท สวยต้องปล้น",
     "genre": "Action",
