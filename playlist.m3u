@@ -33,3 +33,5 @@ https://live-iptv.thaichaiyo.tv/tcy/live-720P.m3u8
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (iPhone; CPU iPhone OS 14_4_2 like Mac OS X)&Referer=https://www.sooplive.com/
 http://global-media.sooplive.com/live/workpoint/master.m3u8
+#EXTINF:-1 tvg-id="Monomax5" tvg-name="Monomax5" group-title="ทีวีออนไลน์" tvg-logo="https://ball67.com/assets/channels-logo/monomax-1.png",Monomax5
+https://cfd6.dfccfd.cfd/dbdn_x1/monomax5_480p/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9My8xLzIwMjYgMTo0NDowMSBQTSZoYXNoX3ZhbHVlPUd6dXY5UmNuV1o3ZUxzNHIxV3NTZVE9PSZ2YWxpZG1pbnV0ZXM9MSZzdHJtX2xlbj0yMSZpZD0xNzcyMzcyNjQxNDAw
