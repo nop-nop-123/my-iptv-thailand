@@ -19,7 +19,7 @@ https://prsmedia-mykojh.cdn.byteark.com/fleetstream/live/720p/index.m3u8|User-Ag
 #EXTINF:-1 tvg-id="ThairathTV.th" tvg-logo="https://api.bananacake.org/images/png/hd-thairath.png" group-title="ทีวีออนไลน์",Thairath TV
 https://p0.cdn.vet/live/ch39/i/ch39i.m3u8?sid=b5yZmM4NDYxZjAyMzZjZDg5ZWFmZAMTA5Y2IxNmY4OTg0OWY2
 #EXTINF:-1 tvg-id="PPTV" tvg-name="Workpoint"tvg-logo="https://api.bananacake.org/images/png/hd-pptv.png" group-title="ทีวีออนไลน์",PPTV
-https://ww.dooballfree.vip/live/pptv/playlist.m3u8
+https://ww.dooballfree.vip/live/pptv/playlist.m3u8|User-Agent=Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
 #EXTINF:-1 tvg-id="ThaiPBS.th" tvg-logo="https://api.bananacake.org/images/png/hd-tpbs.png" group-title="ทีวีออนไลน์",Thai PBS
 https://thaipbs-live.cdn.byteark.com/live/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTINF:-1 tvg-id="MCOT.th" tvg-logo="https://i.imgur.com/ejPxGmU.png" group-title="ทีวีออนไลน์",9MCOT HD
