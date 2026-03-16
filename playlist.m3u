@@ -1,7 +1,7 @@
 
 #EXTM3U 
 #EXTINF:-1 tvg-id="CH3.th" tvg-logo="https://ball67.com/assets/channels-logo/ch3.png" group-title="ทีวีออนไลน์",CH3 HD 
-https://ch3-33-web.cdn.byteark.com/live/playlist_720p/index.m3u8
+https://ch3-33-web.cdn.byteark.com/live/playlist_720p/index.m3u8|User-Agent=Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
 #EXTINF:-1 tvg-id="ThairathTV.th" tvg-logo="https://api.bananacake.org/images/png/hd-thairath.png" group-title="ทีวีออนไลน์",Thairath TV
  https://ww.dooballfree.vip/live/thairathtv/playlist.m3u8
 #EXTINF:-1 tvg-id="Mono29" tvg-logo="https://api.bananabatman.org/images/png/hd-mono.png" group-title="ทีวีออนไลน์",MONO29
