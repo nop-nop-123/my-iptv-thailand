@@ -1,7 +1,7 @@
 
 #EXTM3U 
 #EXTINF:-1 tvg-id="CH3.th" tvg-logo="https://ball67.com/assets/channels-logo/ch3.png" group-title="ทีวีออนไลน์",CH3 HD 
-https://ch3-33-web.cdn.byteark.com/live/playlist_720p/index.m3u8|User-Agent=Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148#EXTINF:-1 tvg-id="ThairathTV.th" tvg-logo="https://api.bananacake.org/images/png/hd-thairath.png" group-title="ทีวีออนไลน์",Thairath TV
+https://ch3-33-web.cdn.byteark.com/live/playlist_720p/index.m3u8|User-Agent=Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
 #EXTINF:-1 tvg-id="CH3.th" tvg-logo="https://ball67.com/assets/channels-logo/ch3.png" group-title="ทีวีออนไลน์",CH3 HD (สำรอง)
 https://edge2a.v2h-cdn.com/hd_3/3hd.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="Mono29" tvg-logo="https://api.bananabatman.org/images/png/hd-mono.png" group-title="ทีวีออนไลน์",MONO29
@@ -16,6 +16,8 @@ https://bcovlive-a.akamaihd.net/57d4bf695e80436d9335f4f50adbe438/ap-southeast-1/
 https://bcovlive-a.akamaihd.net/b6603a14ea59440a95e9235e14bc9332/ap-southeast-1/6415628290001/9c3d7fc7d10840a69e48b5939ae886e0/playlist_ssaiM.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTINF:-1 tvg-id="ch8.th" tvg-logo="https://ball67.com/assets/channels-logo/ch8.png" group-title="ทีวีออนไลน์",CH8
 https://prsmedia-mykojh.cdn.byteark.com/fleetstream/live/720p/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
+#EXTINF:-1 tvg-id="ThairathTV.th" tvg-logo="https://api.bananacake.org/images/png/hd-thairath.png" group-title="ทีวีออนไลน์",Thairath TV
+https://streaming-web-thairath.cdn.byteark.com/live/playlist_720p/index.m3u8|User-Agent=Mozilla/5.0
 #EXTINF:-1 tvg-id="PPTV" tvg-name="Workpoint"tvg-logo="https://api.bananacake.org/images/png/hd-pptv.png" group-title="ทีวีออนไลน์",PPTV
 https://ww.dooballfree.vip/live/pptv/playlist.m3u8
 #EXTINF:-1 tvg-id="ThaiPBS.th" tvg-logo="https://api.bananacake.org/images/png/hd-tpbs.png" group-title="ทีวีออนไลน์",Thai PBS
