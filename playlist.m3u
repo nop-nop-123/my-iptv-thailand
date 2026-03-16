@@ -17,7 +17,7 @@ https://bcovlive-a.akamaihd.net/b6603a14ea59440a95e9235e14bc9332/ap-southeast-1/
 #EXTINF:-1 tvg-id="ch8.th" tvg-logo="https://ball67.com/assets/channels-logo/ch8.png" group-title="ทีวีออนไลน์",CH8
 https://prsmedia-mykojh.cdn.byteark.com/fleetstream/live/720p/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTINF:-1 tvg-id="ThairathTV.th" tvg-logo="https://api.bananacake.org/images/png/hd-thairath.png" group-title="ทีวีออนไลน์",Thairath TV
-https://streaming-srt-web.thairath.co.th/live/playlist_hd/index.m3u8|User-Agent=Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
+https://streaming-srt-web.thairath.co.th/live/playlist_hd/index.m3u8
 #EXTINF:-1 group-title="DLTV",DLTV 1
 #EXTINF:-1 tvg-id="PPTV" tvg-name="Workpoint"tvg-logo="https://api.bananacake.org/images/png/hd-pptv.png" group-title="ทีวีออนไลน์",PPTV
 https://ww.dooballfree.vip/live/pptv/playlist.m3u8|User-Agent=Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
