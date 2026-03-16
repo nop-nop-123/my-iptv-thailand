@@ -33,4 +33,19 @@ https://live-iptv.thaichaiyo.tv/tcy/live-720P.m3u8
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (iPhone; CPU iPhone OS 14_4_2 like Mac OS X)&Referer=https://www.sooplive.com/
 http://global-media.sooplive.com/live/workpoint/master.m3u8
-
+#EXTINF:-1 group-title="DLTV",DLTV 1
+https://cdn-live.dltv.ac.th/dltv01.m3u8
+#EXTINF:-1 group-title="DLTV",DLTV 2
+https://cdn-live.dltv.ac.th/dltv02.m3u8
+#EXTINF:-1 group-title="DLTV",DLTV 3
+https://cdn-live.dltv.ac.th/dltv03.m3u8
+#EXTINF:-1 group-title="DLTV",DLTV 4
+https://cdn-live.dltv.ac.th/dltv04.m3u8
+#EXTINF:-1 group-title="DLTV",DLTV 5
+https://cdn-live.dltv.ac.th/dltv05.m3u8
+#EXTINF:-1 group-title="DLTV",DLTV 6
+https://cdn-live.dltv.ac.th/dltv06.m3u8
+#EXTINF:-1 group-title="DLTV",DLTV 7
+https://cdn-live.dltv.ac.th/dltv07.m3u8
+#EXTINF:-1 group-title="DLTV",DLTV 8
+https://cdn-live.dltv.ac.th/dltv08.m3u8
