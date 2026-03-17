@@ -20,7 +20,7 @@ https://prsmedia-mykojh.cdn.byteark.com/fleetstream/live/720p/index.m3u8|User-Ag
 https://streaming-srt-web.thairath.co.th/live/playlist.m3u8|user-agent=Mozilla/5.0&referer=https://www.thairath.co.th/
 #EXTINF:-1 group-title="DLTV",DLTV 1
 #EXTINF:-1 tvg-id="PPTV" tvg-name="Workpoint"tvg-logo="https://api.bananacake.org/images/png/hd-pptv.png" group-title="ทีวีออนไลน์",PPTV
-https://49-231-37-237-rewriter.ais-vidnt.com/ais/play/anevia/live/eds/B0022/HLS/B0022.m3u8?playbackUrlPrefix=https%3A%2F%2Ftr.play-rbcdn.ais.co.th%3A8438%2F&originBasicUrl=http%3A%2F%2Fpl-origin.ais-vidnt.com%2Fais%2Fplay%2Fanevia&tt=cfd8e614bddd28c72e8034ac14dde84f&chunkHttps=true&tmid=B0022&tpbk=fBUQoIBZ5BbVD0vb&rrt=1773750148&tmod=rfk&rsid=5df79be8-b779-4850-8698-f7eaa8e28a12&tuid=1fdbdc5fc1&cdn=redfox-https&tdid=1cf5cdbdf1a8c34585aefa0f054c2f10&origin=anevia&tfa=f0-fc&tttl=1773836548
+https://pptv36-9h0yba.cdn.byteark.com/bamm-csai/playlist.m3u8?x_ark_access_id=fleet-2966&x_ark_auth_type=ark-v2&x_ark_expires=1773766801&x_ark_path_prefix=%2Fbamm-csai%2F&x_ark_signature=nC-ihk6hdBPq4cmKQ8mCtA
 #EXTINF:-1 tvg-id="ThaiPBS.th" tvg-logo="https://api.bananacake.org/images/png/hd-tpbs.png" group-title="ทีวีออนไลน์",Thai PBS
  https://thaipbs-ophctt.cdn.byteark.com/live/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTINF:-1 tvg-id="MCOT.th" tvg-logo="https://i.imgur.com/ejPxGmU.png" group-title="ทีวีออนไลน์",9MCOT HD
