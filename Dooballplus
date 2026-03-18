@@ -1,1 +1,10 @@
 
+#EXTM3U 
+#EXTINF:-1 tvg-id="CH3.th" tvg-logo="https://dooballplus2.live/assets/channels-logo/ch3.png" group-title="dooballplus2",CH3 HD 
+https://dooballplus2.live/channels/3hd/
+#EXTINF:-1 tvg-id="CH5.th" tvg-logo="https://dooballplus2.live/assets/channels-logo/ch5.png" group-title="dooballplus2",CH5 HD 
+https://dooballplus2.live/channels/5hd/
+#EXTINF:-1 tvg-id="CH7.th" tvg-logo="https://dooballplus2.live/assets/channels-logo/7hd.png" group-title="dooballplus2",CH7 HD 
+https://dooballplus2.live/channels/7hd/
+#EXTINF:-1 tvg-id="MCOT.th" tvg-logo="https://dooballplus2.live/assets/channels-logo/mcot.png" group-title="dooballplus2",MCOT 
+https://dooballplus2.live/channels/mcot/
