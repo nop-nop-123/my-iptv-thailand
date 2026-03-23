@@ -4,8 +4,7 @@
 https://ch3-33-web.cdn.byteark.com/live/playlist_720p/index.m3u8|User-Agent=Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
 #EXTINF:-1 tvg-id="CH3.th" tvg-logo="https://ball67.com/assets/channels-logo/ch3.png" group-title="ทีวีออนไลน์",CH3 HD (สำรอง)
 https://ch3-33-web.cdn.byteark.com/live/playlist_1080p/index.m3u8|User-Agent=Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
-#EXTINF:-1 group-title="ทีวีออนไลน์",CH3 HD
-http://localhost:3000/api/stream?url=https://ch3-33-web.cdn.byteark.com/live/playlist_1080p/index.m3u8
+
 #EXTINF:-1 tvg-id="Mono29" tvg-logo="https://api.bananabatman.org/images/png/hd-mono.png" group-title="ทีวีออนไลน์",MONO29
 https://monomax-uiripn.cdn.byteark.com/plain/th/1080p/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTINF:-1 tvg-id="ch5.th" tvg-logo="https://i.imgur.com/wOIaqg7.png" group-title="ทีวีออนไลน์",TV 5 HD
